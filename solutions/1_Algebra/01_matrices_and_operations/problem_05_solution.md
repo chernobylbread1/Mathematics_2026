@@ -1,162 +1,52 @@
-
 # Exercise 5. Matrix Times Vector
 
 ## Given
 
-$$
-A=
-\begin{pmatrix}
-2 & -1 \\
-1 & 3
-\end{pmatrix},
-\qquad
-x=
-\begin{pmatrix}
-4 \\
-2
-\end{pmatrix}.
-$$
+A = [[2, -1], [1, 3]]
+x = [4, 2]^T
 
 ## Solution
 
 First, compute the matrix-vector product:
 
-$$
-Ax=
-\begin{pmatrix}
-2 & -1 \\
-1 & 3
-\end{pmatrix}
-\begin{pmatrix}
-4 \\
-2
-\end{pmatrix}.
-$$
+A x = [[2, -1], [1, 3]] · [4, 2]^T
 
 Multiplying each row by the vector gives
 
-$$
-Ax=
-\begin{pmatrix}
-2\cdot4+(-1)\cdot2 \\
-1\cdot4+3\cdot2
-\end{pmatrix}
-=
-\begin{pmatrix}
-6 \\
-10
-\end{pmatrix}.
-$$
+A x = [2·4 + (-1)·2, 1·4 + 3·2]^T = [6, 10]^T
 
 Now, express the result as a linear combination of the columns of A.
 
 The columns of A are
 
-$$
-a_1=
-\begin{pmatrix}
-2 \\
-1
-\end{pmatrix},
-\qquad
-a_2=
-\begin{pmatrix}
--1 \\
-3
-\end{pmatrix}.
-$$
+a₁ = [2, 1]^T
+a₂ = [-1, 3]^T
 
 The entries of x are 4 and 2. Therefore,
 
-$$
-Ax=4a_1+2a_2.
-$$
+A x = 4a₁ + 2a₂
 
 Substituting the columns gives
 
-$$
-Ax=
-4\begin{pmatrix}
-2 \\
-1
-\end{pmatrix}
-+
-2\begin{pmatrix}
--1 \\
-3
-\end{pmatrix}.
-$$
+A x = 4[2, 1]^T + 2[-1, 3]^T
 
 Multiplying the columns by their coefficients gives
 
-$$
-4\begin{pmatrix}
-2 \\
-1
-\end{pmatrix}
-=
-\begin{pmatrix}
-8 \\
-4
-\end{pmatrix},
-\qquad
-2\begin{pmatrix}
--1 \\
-3
-\end{pmatrix}
-=
-\begin{pmatrix}
--2 \\
-6
-\end{pmatrix}.
-$$
+4[2, 1]^T = [8, 4]^T
+2[-1, 3]^T = [-2, 6]^T
 
 Adding the vectors gives
 
-$$
-Ax=
-\begin{pmatrix}
-8 \\
-4
-\end{pmatrix}
-+
-\begin{pmatrix}
--2 \\
-6
-\end{pmatrix}
-=
-\begin{pmatrix}
-6 \\
-10
-\end{pmatrix}.
-$$
+A x = [8, 4]^T + [-2, 6]^T = [6, 10]^T
 
 Both methods give the same result.
 
 ## Final Answer
 
-$$
-Ax=
-\begin{pmatrix}
-6 \\
-10
-\end{pmatrix}.
-$$
+A x = [6, 10]^T
 
 The linear combination of the columns is
 
-$$
-Ax=
-4\begin{pmatrix}
-2 \\
-1
-\end{pmatrix}
-+
-2\begin{pmatrix}
--1 \\
-3
-\end{pmatrix}.
-$$
+A x = 4[2, 1]^T + 2[-1, 3]^T
 
-**Key idea:** Multiplying a matrix by a vector is equivalent to taking a linear combination of the matrix columns, using the entries of the vector as coefficients.
-
+Key idea: Multiplying a matrix by a vector is equivalent to taking a linear combination of the matrix columns, using the entries of the vector as coefficients.
