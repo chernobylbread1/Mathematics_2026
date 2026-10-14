@@ -7,13 +7,13 @@ The size of a matrix is written as $m \times n$, where $m$ is the number of rows
 Matrix $A$ has 2 rows and 3 columns. Therefore,
 
 $$
-\operatorname{size}(A)=2\times 3.
+A \text{ has size } 2 \times 3.
 $$
 
 Matrix $B$ has 3 rows and 2 columns. Therefore,
 
 $$
-\operatorname{size}(B)=3\times 2.
+B \text{ has size } 3 \times 2.
 $$
 
 ## 2. Matrix Entries
@@ -23,37 +23,37 @@ The entry $a_{ij}$ denotes the element in row $i$ and column $j$ of matrix $A$. 
 Given
 
 $$
-A=\begin{pmatrix}
+A = \begin{pmatrix}
 2 & -1 & 3 \\
 0 & 4 & 5
 \end{pmatrix},
 \qquad
-B=\begin{pmatrix}
+B = \begin{pmatrix}
 1 & 0 \\
 -2 & 3 \\
 4 & 1
 \end{pmatrix}.
 $$
 
-Reading the entries from the specified rows and columns gives
+Reading the required entries from the specified rows and columns gives
 
 $$
-a_{12}=-1,\qquad a_{23}=5,
+a_{12} = -1, \qquad a_{23} = 5,
 $$
 
 $$
-b_{21}=-2,\qquad b_{32}=1.
+b_{21} = -2, \qquad b_{32} = 1.
 $$
 
 ## 3. Row and Column as Vectors
 
-The second row of $A$ is the row vector
+The second row of matrix $A$ is
 
 $$
-\begin{pmatrix}0 & 4 & 5\end{pmatrix}.
+\begin{pmatrix} 0 & 4 & 5 \end{pmatrix}.
 $$
 
-The first column of $B$ is the column vector
+The first column of matrix $B$ is
 
 $$
 \begin{pmatrix}
@@ -67,6 +67,6 @@ $$
 
 - Matrix $A$ has 2 rows and 3 columns, so its second row contains 3 entries.
 - Matrix $B$ has 3 rows and 2 columns, so its first column contains 3 entries.
-- All four requested entries match their specified row and column indices.
+- The four requested entries match their specified row and column indices.
 
-Therefore, the results are consistent with the given matrices.
+Therefore, all results are consistent with the given matrices.
