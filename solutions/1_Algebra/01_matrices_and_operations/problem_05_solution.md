@@ -137,3 +137,5 @@ As a linear combination of the columns of $A$,
 $$
 Ax = 4c_1 + 2c_2.
 $$
+
+![Exercise 5 visualization](problem_05_plot.png)
