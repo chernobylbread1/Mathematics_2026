@@ -2,29 +2,25 @@
 
 ## Given
 
-We are given the matrix
+Let
 
 $$
 A = \begin{pmatrix}
 2 & -1 \\
 1 & 3
-\end{pmatrix}
-$$
-
-and the vector
-
-$$
+\end{pmatrix},
+\qquad
 x = \begin{pmatrix}
 4 \\
 2
 \end{pmatrix}.
 $$
 
-We need to compute $Ax$ and express the result as a linear combination of the columns of $A$.
+We need to compute $Ax$ and express it as a linear combination of the columns of $A$.
 
 ## 1. Compute $Ax$
 
-To multiply a matrix by a vector, multiply each row of the matrix by the vector and add the corresponding products.
+Multiply each row of $A$ by the vector $x$:
 
 $$
 Ax =
@@ -35,18 +31,20 @@ Ax =
 \begin{pmatrix}
 4 \\
 2
-\end{pmatrix}
+\end{pmatrix}.
 $$
 
-Calculating each entry gives
+Calculate each entry:
 
 $$
 Ax =
 \begin{pmatrix}
 2 \cdot 4 + (-1) \cdot 2 \\
 1 \cdot 4 + 3 \cdot 2
-\end{pmatrix}
+\end{pmatrix}.
 $$
+
+Therefore,
 
 $$
 Ax =
@@ -61,18 +59,9 @@ Ax =
 \end{pmatrix}.
 $$
 
-Therefore, the result is
-
-$$
-Ax = \begin{pmatrix}
-6 \\
-10
-\end{pmatrix}.
-$$
-
 ## 2. Express $Ax$ as a Linear Combination of the Columns
 
-The first and second columns of $A$ are
+The columns of $A$ are
 
 $$
 a_1 = \begin{pmatrix}
@@ -86,15 +75,13 @@ a_2 = \begin{pmatrix}
 \end{pmatrix}.
 $$
 
-The entries of the vector $x$ are $4$ and $2$. These entries become the coefficients of the corresponding columns.
-
-Therefore,
+The entries of $x$ are $4$ and $2$, so they become the coefficients of the columns:
 
 $$
 Ax = 4a_1 + 2a_2.
 $$
 
-Substituting the columns of $A$ gives
+Substitute the columns:
 
 $$
 Ax =
@@ -109,7 +96,7 @@ Ax =
 \end{pmatrix}.
 $$
 
-Multiplying each column by its coefficient,
+Multiply each column by its coefficient:
 
 $$
 Ax =
@@ -124,7 +111,7 @@ Ax =
 \end{pmatrix}.
 $$
 
-Adding the vectors gives
+Add the vectors:
 
 $$
 Ax =
@@ -139,7 +126,7 @@ Ax =
 \end{pmatrix}.
 $$
 
-This agrees with the result obtained in the first part.
+This confirms the result obtained in the first part.
 
 ## Final Answer
 
@@ -148,7 +135,12 @@ Ax = \begin{pmatrix}
 6 \\
 10
 \end{pmatrix}
-= 4\begin{pmatrix}
+$$
+
+The linear combination of the columns is
+
+$$
+Ax = 4\begin{pmatrix}
 2 \\
 1
 \end{pmatrix}
@@ -158,4 +150,4 @@ Ax = \begin{pmatrix}
 \end{pmatrix}.
 $$
 
-**Key idea:** A matrix-vector product is a linear combination of the columns of the matrix, with the entries of the vector serving as the coefficients.
+**Key idea:** A matrix-vector product is a linear combination of the columns of the matrix, using the entries of the vector as coefficients.
