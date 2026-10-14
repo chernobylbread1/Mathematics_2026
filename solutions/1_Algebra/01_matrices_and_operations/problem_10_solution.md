@@ -159,8 +159,28 @@ $$
 **Step 3: Comparison and Explanation**
 
 Let's look at the columns of the resulting matrix $AB$:
-*   The first column of $AB$ is $\begin{pmatrix} -1 \\ 2 \end{pmatrix}$, which matches exactly with our result for $A b_1$.
-*   The second column of $AB$ is $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$, which matches exactly with our result for $A b_2$.
+
+The first column of $AB$ is:
+
+$$
+\begin{pmatrix}
+-1 \\
+2
+\end{pmatrix}
+$$
+
+which matches exactly with our result for $A b_1$.
+
+The second column of $AB$ is:
+
+$$
+\begin{pmatrix}
+2 \\
+1
+\end{pmatrix}
+$$
+
+which matches exactly with our result for $A b_2$.
 
 *Explanation:* 
 By the definition of matrix multiplication, the entry in the $i$-th row and $j$-th column of $AB$ is the dot product of the $i$-th row of $A$ and the $j$-th column of $B$. Therefore, calculating the entire $j$-th column of $AB$ simultaneously is mathematically identical to isolating the $j$-th column vector of $B$ and multiplying the entire matrix $A$ by it. 
