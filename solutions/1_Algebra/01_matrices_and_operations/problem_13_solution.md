@@ -138,14 +138,64 @@ $$
 **Step 2: Compare with the sequence and describe the relationship**
 
 Let's align the entries of our matrices with the given Fibonacci sequence $(0, 1, 1, 2, 3, 5, 8, \dots)$.
-Let $f_0 = 0, f_1 = 1, f_2 = 1, f_3 = 2, f_4 = 3, f_5 = 5, f_6 = 8$.
+Let $f_0 = 0$, $f_1 = 1$, $f_2 = 1$, $f_3 = 2$, $f_4 = 3$, $f_5 = 5$, $f_6 = 8$.
 
 Looking at the matrices:
-*   $F^1 = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} f_2 & f_1 \\ f_1 & f_0 \end{pmatrix}$
-*   $F^2 = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix} = \begin{pmatrix} f_3 & f_2 \\ f_2 & f_1 \end{pmatrix}$
-*   $F^3 = \begin{pmatrix} 3 & 2 \\ 2 & 1 \end{pmatrix} = \begin{pmatrix} f_4 & f_3 \\ f_3 & f_2 \end{pmatrix}$
-*   $F^4 = \begin{pmatrix} 5 & 3 \\ 3 & 2 \end{pmatrix} = \begin{pmatrix} f_5 & f_4 \\ f_4 & f_3 \end{pmatrix}$
-*   $F^5 = \begin{pmatrix} 8 & 5 \\ 5 & 3 \end{pmatrix} = \begin{pmatrix} f_6 & f_5 \\ f_5 & f_4 \end{pmatrix}$
+
+$$
+F^1 = \begin{pmatrix}
+1 & 1 \\
+1 & 0
+\end{pmatrix}
+= \begin{pmatrix}
+f_2 & f_1 \\
+f_1 & f_0
+\end{pmatrix}
+$$
+
+$$
+F^2 = \begin{pmatrix}
+2 & 1 \\
+1 & 1
+\end{pmatrix}
+= \begin{pmatrix}
+f_3 & f_2 \\
+f_2 & f_1
+\end{pmatrix}
+$$
+
+$$
+F^3 = \begin{pmatrix}
+3 & 2 \\
+2 & 1
+\end{pmatrix}
+= \begin{pmatrix}
+f_4 & f_3 \\
+f_3 & f_2
+\end{pmatrix}
+$$
+
+$$
+F^4 = \begin{pmatrix}
+5 & 3 \\
+3 & 2
+\end{pmatrix}
+= \begin{pmatrix}
+f_5 & f_4 \\
+f_4 & f_3
+\end{pmatrix}
+$$
+
+$$
+F^5 = \begin{pmatrix}
+8 & 5 \\
+5 & 3
+\end{pmatrix}
+= \begin{pmatrix}
+f_6 & f_5 \\
+f_5 & f_4
+\end{pmatrix}
+$$
 
 *Relationship Observation:* The entries of the matrix $F^n$ consist entirely of consecutive terms from the Fibonacci sequence. The top-left entry is the $(n+1)$-th Fibonacci number, the top-right and bottom-left entries are identical and represent the $n$-th number, and the bottom-right is the $(n-1)$-th number.
 
@@ -178,6 +228,15 @@ $$
 
 **Step 4: Explain the recurrence step**
 
-If we assume the vector $\begin{pmatrix} a \\ b \end{pmatrix}$ represents the current state of a sequence (where $a$ is the current term and $b$ is the previous term), the multiplication by $F$ updates the vector for the next step. 
+If we assume the vector is a column vector representing the current state of a sequence:
+
+$$
+\begin{pmatrix}
+a \\
+b
+\end{pmatrix}
+$$
+
+(where $a$ is the current term and $b$ is the previous term), the multiplication by $F$ updates the vector for the next step. 
 
 The top row of the resulting vector evaluates to $a + b$, successfully creating the next term by summing the two consecutive terms. The bottom row evaluates simply to $a$, which takes the "current" term from the old vector and shifts it down to become the "previous" term for the new vector. By repeatedly multiplying by $F$, the matrix systematically shifts the window of terms forward, effectively generating the Fibonacci sequence algebraically.
