@@ -1,56 +1,45 @@
-# Exercise 5. Matrix Times Vector
+### Essential Formulas
+**Matrix-Vector Multiplication:**
+For a $2 \times 2$ matrix $A$ and a $2 \times 1$ column vector $x$:
+$$A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}, \quad x = \begin{pmatrix} x_1 \\ x_2 \end{pmatrix}$$
+The product $Ax$ is calculated as:
+$$Ax = \begin{pmatrix} a \cdot x_1 + b \cdot x_2 \\ c \cdot x_1 + d \cdot x_2 \end{pmatrix}$$
 
-## Given
+**Linear Combination of Columns:**
+The product $Ax$ can also be expressed as a linear combination of the column vectors of matrix $A$, scaled by the components of vector $x$:
+$$Ax = x_1 \begin{pmatrix} a \\ c \end{pmatrix} + x_2 \begin{pmatrix} b \\ d \end{pmatrix}$$
 
-A = \begin{pmatrix} 2 & -1 \\ 1 & 3 \end{pmatrix}
+---
 
-x = \begin{pmatrix} 4 \\ 2 \end{pmatrix}
+### Problem Statement
+**Exercise 5. Matrix Times Vector**
+Let
+$$A= \begin{pmatrix} 2 & -1 \\ 1 & 3 \end{pmatrix},\qquad x= \begin{pmatrix} 4 \\ 2 \end{pmatrix}.$$
+Compute $Ax$. Then express $Ax$ as a linear combination of the columns of $A$, with coefficients coming from the vector $x$.
 
-## Solution
+> **Why this exercise:** shows that multiplying a matrix by a vector can be understood as a linear combination of the matrix columns.
 
-First, compute the matrix-vector product:
+---
 
-A x = \begin{pmatrix} 2 & -1 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 4 \\ 2 \end{pmatrix}
+### Solution
+**Step 1: Compute $Ax$**
+To compute the product $Ax$, we multiply the rows of matrix $A$ by the column vector $x$:
+$$Ax = \begin{pmatrix} 2 & -1 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} 4 \\ 2 \end{pmatrix}$$
 
-Multiplying each row by the vector gives
+$$Ax = \begin{pmatrix} (2 \cdot 4) + (-1 \cdot 2) \\ (1 \cdot 4) + (3 \cdot 2) \end{pmatrix}$$
 
-A x = \begin{pmatrix} 2\cdot4 + (-1)\cdot2 \\ 1\cdot4 + 3\cdot2 \end{pmatrix} = \begin{pmatrix} 6 \\ 10 \end{pmatrix}
+$$Ax = \begin{pmatrix} 8 - 2 \\ 4 + 6 \end{pmatrix}$$
 
-Now, express the result as a linear combination of the columns of A.
+$$Ax = \begin{pmatrix} 6 \\ 10 \end{pmatrix}$$
 
-The columns of A are
+**Step 2: Express $Ax$ as a linear combination of the columns of $A$**
+The columns of matrix $A$ are:
+$$c_1 = \begin{pmatrix} 2 \\ 1 \end{pmatrix}, \quad c_2 = \begin{pmatrix} -1 \\ 3 \end{pmatrix}$$
 
-A = \begin{pmatrix} 2 & -1 \\ 1 & 3 \end{pmatrix}
+The coefficients are the respective elements of vector $x$: $x_1 = 4$ and $x_2 = 2$.
+Expressing $Ax$ as a linear combination:
+$$Ax = 4 \begin{pmatrix} 2 \\ 1 \end{pmatrix} + 2 \begin{pmatrix} -1 \\ 3 \end{pmatrix}$$
 
-so
-
- a₁ = \begin{pmatrix} 2 \\ 1 \end{pmatrix},   a₂ = \begin{pmatrix} -1 \\ 3 \end{pmatrix}
-
-The entries of x are 4 and 2. Therefore,
-
-A x = 4a₁ + 2a₂
-
-Substituting the columns gives
-
-A x = 4\begin{pmatrix} 2 \\ 1 \end{pmatrix} + 2\begin{pmatrix} -1 \\ 3 \end{pmatrix}
-
-Multiplying the columns by their coefficients gives
-
-4\begin{pmatrix} 2 \\ 1 \end{pmatrix} = \begin{pmatrix} 8 \\ 4 \end{pmatrix},
-2\begin{pmatrix} -1 \\ 3 \end{pmatrix} = \begin{pmatrix} -2 \\ 6 \end{pmatrix}
-
-Adding the vectors gives
-
-A x = \begin{pmatrix} 8 \\ 4 \end{pmatrix} + \begin{pmatrix} -2 \\ 6 \end{pmatrix} = \begin{pmatrix} 6 \\ 10 \end{pmatrix}
-
-Both methods give the same result.
-
-## Final Answer
-
-A x = \begin{pmatrix} 6 \\ 10 \end{pmatrix}
-
-The linear combination of the columns is
-
-A x = 4\begin{pmatrix} 2 \\ 1 \end{pmatrix} + 2\begin{pmatrix} -1 \\ 3 \end{pmatrix}
-
-**Key idea:** Multiplying a matrix by a vector is equivalent to taking a linear combination of the matrix columns, using the entries of the vector as coefficients.
+**Verification:**
+$$4 \begin{pmatrix} 2 \\ 1 \end{pmatrix} + 2 \begin{pmatrix} -1 \\ 3 \end{pmatrix} = \begin{pmatrix} 8 \\ 4 \end{pmatrix} + \begin{pmatrix} -2 \\ 6 \end{pmatrix} = \begin{pmatrix} 6 \\ 10 \end{pmatrix}$$
+This matches our initial calculation.
