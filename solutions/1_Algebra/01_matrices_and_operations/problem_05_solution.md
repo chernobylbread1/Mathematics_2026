@@ -3,7 +3,6 @@
 ### Essential Formulas
 
 **Matrix-Vector Multiplication:**
-
 For a matrix $A$ and a column vector $x$, each entry of $Ax$ is calculated by multiplying one row of $A$ by the vector $x$ and adding the products.
 
 For a $2 \times 2$ matrix and a $2 \times 1$ vector,
@@ -29,15 +28,14 @@ Ax =
 \begin{pmatrix}
 a x_1 + b x_2 \\
 c x_1 + d x_2 \\
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 **Linear Combination of Columns:**
-
 If the columns of $A$ are $c_1$ and $c_2$, then
 
 $$
-Ax = x_1 c_1 + x_2 c_2.
+Ax = x_1 c_1 + x_2 c_2
 $$
 
 The entries of the vector $x$ are the coefficients of the corresponding columns.
@@ -61,7 +59,7 @@ x =
 \begin{pmatrix}
 4 \\
 2 \\
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 Compute $Ax$. Then express $Ax$ as a linear combination of the columns of $A$, with coefficients coming from the vector $x$.
@@ -115,7 +113,7 @@ Ax =
 \begin{pmatrix}
 6 \\
 10 \\
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 **Step 2: Express $Ax$ as a linear combination of the columns of $A$**
@@ -133,19 +131,20 @@ c_2 =
 \begin{pmatrix}
 -1 \\
 3 \\
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 The entries of vector $x$ are $x_1 = 4$ and $x_2 = 2$. Therefore,
 
 $$
-Ax = 4c_1 + 2c_2.
+Ax = 4c_1 + 2c_2
 $$
 
 Substitute the columns:
 
 $$
-Ax = 4
+Ax =
+4
 \begin{pmatrix}
 2 \\
 1 \\
@@ -157,7 +156,7 @@ Ax = 4
 \end{pmatrix}
 $$
 
-### Verification
+**Step 3: Verification**
 
 Multiply each column by its coefficient:
 
@@ -206,6 +205,8 @@ $$
 
 This matches the result from Step 1.
 
+---
+
 ### Final Answer
 
 $$
@@ -213,13 +214,15 @@ Ax =
 \begin{pmatrix}
 6 \\
 10 \\
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 As a linear combination of the columns of $A$,
 
 $$
-Ax = 4c_1 + 2c_2.
+Ax = 4c_1 + 2c_2
 $$
+
+![Exercise 5 visualization](problem_05_plot.png)
 
 ![Exercise 5 visualization](./problem_05_plot.png)
