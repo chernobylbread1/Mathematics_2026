@@ -161,7 +161,8 @@ $$
 Multiply each column by its coefficient:
 
 $$
-4\begin{pmatrix}
+4
+\begin{pmatrix}
 2 \\
 1 \\
 \end{pmatrix}
@@ -171,7 +172,8 @@ $$
 4 \\
 \end{pmatrix},
 \qquad
-2\begin{pmatrix}
+2
+\begin{pmatrix}
 -1 \\
 3 \\
 \end{pmatrix}
@@ -179,7 +181,7 @@ $$
 \begin{pmatrix}
 -2 \\
 6 \\
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 Add the resulting vectors:
@@ -198,12 +200,10 @@ $$
 \begin{pmatrix}
 6 \\
 10 \\
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 This matches the result from Step 1.
-
----
 
 ### Final Answer
 
