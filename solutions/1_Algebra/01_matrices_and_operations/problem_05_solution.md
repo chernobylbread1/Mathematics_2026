@@ -145,15 +145,16 @@ $$
 Substitute the columns:
 
 $$
-Ax =
-4\begin{pmatrix}
+Ax = 4
+\begin{pmatrix}
 2 \\
 1 \\
 \end{pmatrix}
-+ 2\begin{pmatrix}
++ 2
+\begin{pmatrix}
 -1 \\
 3 \\
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 ### Verification
