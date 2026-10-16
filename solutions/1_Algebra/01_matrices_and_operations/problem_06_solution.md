@@ -28,20 +28,20 @@ For
 $$
 A = \begin{pmatrix}
 1 & 2 & 3 \\
-4 & 5 & 6
+4 & 5 & 6 \\
 \end{pmatrix},
 \qquad
 B = \begin{pmatrix}
 1 & 0 \\
 2 & 1 \\
--1 & 3
+-1 & 3 \\
 \end{pmatrix}
 $$
 
 compute $A^T$, $B^T$, and $AB$. Then verify in this example that
 
 $$
-(AB)^T = B^T A^T.
+(AB)^T = B^T A^T
 $$
 
 > **Why this exercise:** teaches transposition and an important property that reverses the order of factors.
@@ -58,7 +58,7 @@ $$
 A^T = \begin{pmatrix}
 1 & 4 \\
 2 & 5 \\
-3 & 6
+3 & 6 \\
 \end{pmatrix}
 $$
 
@@ -67,7 +67,7 @@ Matrix $B$ has size $3 \times 2$. Swapping its rows and columns yields the $2 \t
 $$
 B^T = \begin{pmatrix}
 1 & 2 & -1 \\
-0 & 1 & 3
+0 & 1 & 3 \\
 \end{pmatrix}
 $$
 
@@ -78,12 +78,12 @@ Multiply the $2 \times 3$ matrix $A$ by the $3 \times 2$ matrix $B$. The result 
 $$
 AB = \begin{pmatrix}
 1 & 2 & 3 \\
-4 & 5 & 6
+4 & 5 & 6 \\
 \end{pmatrix}
 \begin{pmatrix}
 1 & 0 \\
 2 & 1 \\
--1 & 3
+-1 & 3 \\
 \end{pmatrix}
 $$
 
@@ -96,7 +96,7 @@ Calculate each entry (Row of $A$ $\times$ Column of $B$):
 $$
 AB = \begin{pmatrix}
 2 & 11 \\
-8 & 23
+8 & 23 \\
 \end{pmatrix}
 $$
 
@@ -107,7 +107,7 @@ First, take the transpose of the calculated product $(AB)$:
 $$
 (AB)^T = \begin{pmatrix}
 2 & 8 \\
-11 & 23
+11 & 23 \\
 \end{pmatrix}
 $$
 
@@ -116,12 +116,12 @@ Next, compute the product of the individual transposes $B^T A^T$. Multiply the $
 $$
 B^T A^T = \begin{pmatrix}
 1 & 2 & -1 \\
-0 & 1 & 3
+0 & 1 & 3 \\
 \end{pmatrix}
 \begin{pmatrix}
 1 & 4 \\
 2 & 5 \\
-3 & 6
+3 & 6 \\
 \end{pmatrix}
 $$
 
@@ -134,7 +134,7 @@ Calculate each entry:
 $$
 B^T A^T = \begin{pmatrix}
 2 & 8 \\
-11 & 23
+11 & 23 \\
 \end{pmatrix}
 $$
 
@@ -143,13 +143,43 @@ Comparing the two matrices:
 $$
 \begin{pmatrix}
 2 & 8 \\
-11 & 23
+11 & 23 \\
 \end{pmatrix}
-=
-\begin{pmatrix}
+= \begin{pmatrix}
 2 & 8 \\
-11 & 23
+11 & 23 \\
 \end{pmatrix}
 $$
 
 The identity $(AB)^T = B^T A^T$ is verified.
+
+---
+
+### Final Answer
+
+$$
+A^T = \begin{pmatrix}
+1 & 4 \\
+2 & 5 \\
+3 & 6 \\
+\end{pmatrix},
+\qquad
+B^T = \begin{pmatrix}
+1 & 2 & -1 \\
+0 & 1 & 3 \\
+\end{pmatrix}
+$$
+
+$$
+AB = \begin{pmatrix}
+2 & 11 \\
+8 & 23 \\
+\end{pmatrix}
+$$
+
+$$
+(AB)^T = B^T A^T = \begin{pmatrix}
+2 & 8 \\
+11 & 23 \\
+\end{pmatrix}
+$$

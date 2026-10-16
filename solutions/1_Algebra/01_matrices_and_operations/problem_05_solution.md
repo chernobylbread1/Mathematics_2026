@@ -127,8 +127,7 @@ $$
 Ax = 4c_1 + 2c_2
 $$
 
-Substitute the columns: 
-
+Substitute the columns:
 
 $$
 Ax = 4 \begin{pmatrix}
@@ -140,7 +139,6 @@ Ax = 4 \begin{pmatrix}
 3 \\
 \end{pmatrix}
 $$
-
 
 **Step 3: Verification**
 
