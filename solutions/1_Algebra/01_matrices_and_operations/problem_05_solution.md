@@ -201,3 +201,4 @@ Ax = 4c_1 + 2c_2
 $$
 
 ![Exercise 5 visualization](./problem_05_plot.png)
+
