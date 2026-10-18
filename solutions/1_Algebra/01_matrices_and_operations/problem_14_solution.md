@@ -113,6 +113,8 @@ Multiplying a vector by $R(\beta)$ rotates it counterclockwise by an angle $\bet
 
 Successively rotating a vector by $\beta$ and then by $\alpha$ is geometrically identical to a single rotation through the sum of the angles $\alpha + \beta$. The matrix product confirms this equivalence algebraically.
 
+![Rotations Plot](ex14_rotations.png)
+
 ---
 
 ### Final Answer
