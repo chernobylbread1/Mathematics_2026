@@ -162,3 +162,4 @@ def insert_markdown_image_link():
 if __name__ == '__main__':
     plot_rotations()
     insert_markdown_image_link()
+
