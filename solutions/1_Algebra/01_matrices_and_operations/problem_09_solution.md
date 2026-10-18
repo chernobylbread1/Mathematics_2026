@@ -171,6 +171,8 @@ The order matters because the scaling matrix $S$ is non-uniform (it stretches on
 
 Because rotation changes the orientation of the vector relative to the coordinate axes, applying an axis-specific scaling after rotation acts along completely different components than applying it before rotation.
 
+![Transformations Plot](ex9_transformations.png)
+
 ---
 
 ### Final Answer
