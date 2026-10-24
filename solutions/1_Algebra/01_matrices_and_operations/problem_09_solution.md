@@ -171,7 +171,95 @@ The order matters because the scaling matrix $S$ is non-uniform (it stretches on
 
 Because rotation changes the orientation of the vector relative to the coordinate axes, applying an axis-specific scaling after rotation acts along completely different components than applying it before rotation.
 
-![Transformations Plot](ex9_transformations.png)
+![Transformations Plot](./ex9_transformations.png)
+
+**Step 4: Verification via Composite Matrices**
+
+We can also verify the results algebraically by computing the composite transformation matrices $RS$ and $SR$ directly:
+
+$$
+RS = \begin{pmatrix}
+0 & -1 \\
+1 & 0 \\
+\end{pmatrix}
+\begin{pmatrix}
+2 & 0 \\
+0 & 1 \\
+\end{pmatrix}
+= \begin{pmatrix}
+0\cdot 2 + (-1)\cdot 0 & 0\cdot 0 + (-1)\cdot 1 \\
+1\cdot 2 + 0\cdot 0 & 1\cdot 0 + 0\cdot 1 \\
+\end{pmatrix}
+= \begin{pmatrix}
+0 & -1 \\
+2 & 0 \\
+\end{pmatrix}
+$$
+
+Multiplying by $x$:
+
+$$
+(RS)x = \begin{pmatrix}
+0 & -1 \\
+2 & 0 \\
+\end{pmatrix}
+\begin{pmatrix}
+1 \\
+2 \\
+\end{pmatrix}
+= \begin{pmatrix}
+0\cdot 1 + (-1)\cdot 2 \\
+2\cdot 1 + 0\cdot 2 \\
+\end{pmatrix}
+= \begin{pmatrix}
+-2 \\
+2 \\
+\end{pmatrix}
+$$
+
+Similarly, compute the composite matrix $SR$:
+
+$$
+SR = \begin{pmatrix}
+2 & 0 \\
+0 & 1 \\
+\end{pmatrix}
+\begin{pmatrix}
+0 & -1 \\
+1 & 0 \\
+\end{pmatrix}
+= \begin{pmatrix}
+2\cdot 0 + 0\cdot 1 & 2\cdot (-1) + 0\cdot 0 \\
+0\cdot 0 + 1\cdot 1 & 0\cdot (-1) + 1\cdot 0 \\
+\end{pmatrix}
+= \begin{pmatrix}
+0 & -2 \\
+1 & 0 \\
+\end{pmatrix}
+$$
+
+Multiplying by $x$:
+
+$$
+(SR)x = \begin{pmatrix}
+0 & -2 \\
+1 & 0 \\
+\end{pmatrix}
+\begin{pmatrix}
+1 \\
+2 \\
+\end{pmatrix}
+= \begin{pmatrix}
+0\cdot 1 + (-2)\cdot 2 \\
+1\cdot 1 + 0\cdot 2 \\
+\end{pmatrix}
+= \begin{pmatrix}
+-4 \\
+1 \\
+\end{pmatrix}
+$$
+
+Both calculation methods yield identical vectors, confirming $(RS)x = R(Sx)$ and $(SR)x = S(Rx)$.
 
 ---
 

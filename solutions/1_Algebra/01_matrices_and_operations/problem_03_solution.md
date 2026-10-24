@@ -1,123 +1,129 @@
-# Exercise 3. When Can Matrices Be Multiplied?
+### Essential Formulas
 
-## Dimension Compatibility Condition
-
-If matrix $X$ has size $m \times n$ and matrix $Y$ has size $p \times q$, the product $XY$ is defined if and only if $n=p$.
-
-In other words, the number of columns of the first matrix must equal the number of rows of the second matrix. If the product is defined, its size is $m \times q$.
-
-Given
+**Dimension Compatibility for Matrix Multiplication:**
+Let $X$ be an $m \times n$ matrix and $Y$ a $p \times q$ matrix. The product $XY$ is defined if and only if the number of columns in the first matrix equals the number of rows in the second matrix:
 
 $$
-A_{2\times3},\qquad B_{3\times4},\qquad
-C_{4\times2},\qquad D_{2\times2},
+n = p
 $$
 
-we examine each product separately.
-
-## 1. Product $AB$
-
-The sizes are $A:2\times3$ and $B:3\times4$.
-
-The inner dimensions are both $3$, so the product is defined.
+When this condition is satisfied, the resulting matrix $XY$ has size determined by the outer dimensions:
 
 $$
-(2\times\boxed{3})(\boxed{3}\times4)
+(XY)_{m \times q}
 $$
 
-The result has the outer dimensions $2\times4$.
+If $n \neq p$, the inner dimensions do not match and the product $XY$ is undefined.
 
-**Conclusion:** $AB$ is defined and has size $2\times4$.
+---
 
-## 2. Product $BA$
+### Problem Statement
 
-The sizes are $B:3\times4$ and $A:2\times3$.
+**Exercise 3. When Can Matrices Be Multiplied?**
 
-The inner dimensions are $4$ and $2$, which are not equal. Therefore, the product is not defined.
-
-**Conclusion:** $BA$ is undefined because $4\ne2$.
-
-## 3. Product $BC$
-
-The sizes are $B:3\times4$ and $C:4\times2$.
-
-The inner dimensions are both $4$, so the product is defined.
+The matrix sizes are
 
 $$
-(3\times\boxed{4})(\boxed{4}\times2)
+A_{2\times3},\qquad B_{3\times4},\qquad C_{4\times2},\qquad D_{2\times2}
 $$
 
-The result has size $3\times2$.
-
-**Conclusion:** $BC$ is defined and has size $3\times2$.
-
-## 4. Product $CB$
-
-The sizes are $C:4\times2$ and $B:3\times4$.
-
-The inner dimensions are $2$ and $3$, which are not equal. Therefore, the product is not defined.
-
-**Conclusion:** $CB$ is undefined because $2\ne3$.
-
-## 5. Product $AC$
-
-The sizes are $A:2\times3$ and $C:4\times2$.
-
-The inner dimensions are $3$ and $4$, which are not equal. Therefore, the product is not defined.
-
-**Conclusion:** $AC$ is undefined because $3\ne4$.
-
-## 6. Product $CA$
-
-The sizes are $C:4\times2$ and $A:2\times3$.
-
-The inner dimensions are both $2$, so the product is defined.
+For the products
 
 $$
-(4\times\boxed{2})(\boxed{2}\times3)
+AB,\qquad BA,\qquad BC,\qquad CB,\qquad AC,\qquad CA,\qquad AD,\qquad DA
 $$
 
-The result has size $4\times3$.
+determine whether they are defined. If so, state the size of the result. Justify each decision using the dimension compatibility condition.
 
-**Conclusion:** $CA$ is defined and has size $4\times3$.
+> **Why this exercise:** forces an understanding of dimension compatibility before carrying out any calculation.
 
-## 7. Product $AD$
+---
 
-The sizes are $A:2\times3$ and $D:2\times2$.
+### Solution
 
-The inner dimensions are $3$ and $2$, which are not equal. Therefore, the product is not defined.
+**Step 1: Analyze products involving $A$ and $B$**
 
-**Conclusion:** $AD$ is undefined because $3\ne2$.
+* **Product $AB$:**
+  * Dimensions: $A$ is $2 \times 3$ and $B$ is $3 \times 4$.
+  * The number of columns in $A$ is $3$, and the number of rows in $B$ is $3$.
+  * Since the inner dimensions match ($3 = 3$), the product is defined.
+  * The size of $AB$ is given by the outer dimensions: $2 \times 4$.
 
-## 8. Product $DA$
+* **Product $BA$:**
+  * Dimensions: $B$ is $3 \times 4$ and $A$ is $2 \times 3$.
+  * The number of columns in $B$ is $4$, and the number of rows in $A$ is $2$.
+  * Since $4 \neq 2$, the inner dimensions do not match.
+  * Therefore, the product $BA$ is undefined.
 
-The sizes are $D:2\times2$ and $A:2\times3$.
+**Step 2: Analyze products involving $B$ and $C$**
 
-The inner dimensions are both $2$, so the product is defined.
+* **Product $BC$:**
+  * Dimensions: $B$ is $3 \times 4$ and $C$ is $4 \times 2$.
+  * The number of columns in $B$ is $4$, and the number of rows in $C$ is $4$.
+  * Since the inner dimensions match ($4 = 4$), the product is defined.
+  * The size of $BC$ is given by the outer dimensions: $3 \times 2$.
 
-$$
-(2\times\boxed{2})(\boxed{2}\times3)
-$$
+* **Product $CB$:**
+  * Dimensions: $C$ is $4 \times 2$ and $B$ is $3 \times 4$.
+  * The number of columns in $C$ is $2$, and the number of rows in $B$ is $3$.
+  * Since $2 \neq 3$, the inner dimensions do not match.
+  * Therefore, the product $CB$ is undefined.
 
-The result has size $2\times3$.
+**Step 3: Analyze products involving $A$ and $C$**
 
-**Conclusion:** $DA$ is defined and has size $2\times3$.
+* **Product $AC$:**
+  * Dimensions: $A$ is $2 \times 3$ and $C$ is $4 \times 2$.
+  * The number of columns in $A$ is $3$, and the number of rows in $C$ is $4$.
+  * Since $3 \neq 4$, the inner dimensions do not match.
+  * Therefore, the product $AC$ is undefined.
 
-## Summary Table
+* **Product $CA$:**
+  * Dimensions: $C$ is $4 \times 2$ and $A$ is $2 \times 3$.
+  * The number of columns in $C$ is $2$, and the number of rows in $A$ is $2$.
+  * Since the inner dimensions match ($2 = 2$), the product is defined.
+  * The size of $CA$ is given by the outer dimensions: $4 \times 3$.
 
-| Product | Inner dimensions | Defined? | Result size |
-|---|---|---|---|
-| $AB$ | $3=3$ | Yes | $2\times4$ |
-| $BA$ | $4\ne2$ | No | Not defined |
-| $BC$ | $4=4$ | Yes | $3\times2$ |
-| $CB$ | $2\ne3$ | No | Not defined |
-| $AC$ | $3\ne4$ | No | Not defined |
-| $CA$ | $2=2$ | Yes | $4\times3$ |
-| $AD$ | $3\ne2$ | No | Not defined |
-| $DA$ | $2=2$ | Yes | $2\times3$ |
+**Step 4: Analyze products involving $A$ and $D$**
 
-## Verification
+* **Product $AD$:**
+  * Dimensions: $A$ is $2 \times 3$ and $D$ is $2 \times 2$.
+  * The number of columns in $A$ is $3$, and the number of rows in $D$ is $2$.
+  * Since $3 \neq 2$, the inner dimensions do not match.
+  * Therefore, the product $AD$ is undefined.
 
-For every defined product, the number of columns of the first matrix equals the number of rows of the second matrix. The result size is obtained from the number of rows of the first matrix and the number of columns of the second matrix.
+* **Product $DA$:**
+  * Dimensions: $D$ is $2 \times 2$ and $A$ is $2 \times 3$.
+  * The number of columns in $D$ is $2$, and the number of rows in $A$ is $2$.
+  * Since the inner dimensions match ($2 = 2$), the product is defined.
+  * The size of $DA$ is given by the outer dimensions: $2 \times 3$.
 
-All eight products satisfy these rules, so the decisions and result sizes are consistent with the dimension compatibility condition.
+**Step 5: Summary Table and Verification**
+
+| Product | Matrix Dimensions | Inner Check | Defined? | Result Size |
+|---|---|---|---|---|
+| $AB$ | $(2 \times 3) \cdot (3 \times 4)$ | $3 = 3$ | Yes | $2 \times 4$ |
+| $BA$ | $(3 \times 4) \cdot (2 \times 3)$ | $4 \neq 2$ | No | Undefined |
+| $BC$ | $(3 \times 4) \cdot (4 \times 2)$ | $4 = 4$ | Yes | $3 \times 2$ |
+| $CB$ | $(4 \times 2) \cdot (3 \times 4)$ | $2 \neq 3$ | No | Undefined |
+| $AC$ | $(2 \times 3) \cdot (4 \times 2)$ | $3 \neq 4$ | No | Undefined |
+| $CA$ | $(4 \times 2) \cdot (2 \times 3)$ | $2 = 2$ | Yes | $4 \times 3$ |
+| $AD$ | $(2 \times 3) \cdot (2 \times 2)$ | $3 \neq 2$ | No | Undefined |
+| $DA$ | $(2 \times 2) \cdot (2 \times 3)$ | $2 = 2$ | Yes | $2 \times 3$ |
+
+For every pair, multiplication is defined if and only if the number of columns in the left matrix equals the number of rows in the right matrix. The resulting matrix dimensions $(m \times q)$ directly inherit the outer row and column counts. All 8 products have been verified.
+
+---
+
+### Final Answer
+
+* **Defined Products:**
+  * $AB$ is defined; size is $2 \times 4$
+  * $BC$ is defined; size is $3 \times 2$
+  * $CA$ is defined; size is $4 \times 3$
+  * $DA$ is defined; size is $2 \times 3$
+
+* **Undefined Products:**
+  * $BA$ is undefined ($4 \neq 2$)
+  * $CB$ is undefined ($2 \neq 3$)
+  * $AC$ is undefined ($3 \neq 4$)
+  * $AD$ is undefined ($3 \neq 2$)

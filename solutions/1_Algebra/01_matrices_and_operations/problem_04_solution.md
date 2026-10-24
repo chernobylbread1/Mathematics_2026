@@ -1,147 +1,199 @@
-# Exercise 4. Matrix Multiplication and Noncommutativity
+### Essential Formulas
 
-## Given Matrices
+**Matrix Multiplication (Row-by-Column Rule):**
+For matrices $A$ of size $m \times n$ and $B$ of size $n \times p$, each entry of the product $C = AB$ is obtained by multiplying corresponding elements of row $i$ of $A$ and column $j$ of $B$ and summing them:
+
+$$
+c_{ij} = (AB)_{ij} = \sum_{k=1}^n a_{ik} b_{kj}
+$$
+
+For $2 \times 2$ matrices:
+
+$$
+\begin{pmatrix}
+a_{11} & a_{12} \\
+a_{21} & a_{22} \\
+\end{pmatrix}
+\begin{pmatrix}
+b_{11} & b_{12} \\
+b_{21} & b_{22} \\
+\end{pmatrix}
+= \begin{pmatrix}
+a_{11}b_{11} + a_{12}b_{21} & a_{11}b_{12} + a_{12}b_{22} \\
+a_{21}b_{11} + a_{22}b_{21} & a_{21}b_{12} + a_{22}b_{22} \\
+\end{pmatrix}
+$$
+
+**Matrix Noncommutativity:**
+Unlike multiplication of real numbers where $ab = ba$, matrix multiplication is generally **not commutative**:
+
+$$
+AB \neq BA
+$$
+
+Two matrices are equal if and only if they have the same size and all corresponding entries are identical.
+
+---
+
+### Problem Statement
+
+**Exercise 4. Matrix Multiplication and Noncommutativity**
+
+For
 
 $$
 A = \begin{pmatrix}
 1 & 2 \\
-0 & 1
+0 & 1 \\
 \end{pmatrix},
 \qquad
 B = \begin{pmatrix}
 2 & 0 \\
-3 & 1
-\end{pmatrix}.
+3 & 1 \\
+\end{pmatrix}
 $$
 
-Both matrices have size $2 \times 2$, so both products $AB$ and $BA$ are defined.
+compute $AB$ and $BA$. Is $AB=BA$? Use this example to explain what noncommutativity of matrix multiplication means.
 
-## 1. Compute $AB$
+> **Why this exercise:** shows one of the most important differences between matrix multiplication and multiplication of numbers.
 
-To multiply matrices, each entry of the product is obtained by multiplying a row of the first matrix by a column of the second matrix and adding the products.
+---
+
+### Solution
+
+**Step 1: Compute $AB$**
+
+Both matrices have size $2 \times 2$, so their product is defined and has size $2 \times 2$. Multiply each row of $A$ by each column of $B$:
 
 $$
-AB =
-\begin{pmatrix}
+\begin{aligned}
+AB &= \begin{pmatrix}
 1 & 2 \\
-0 & 1
+0 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
 2 & 0 \\
-3 & 1
-\end{pmatrix}.
-$$
-
-Calculate each entry:
-
-$$
-(AB)_{11}=1\cdot2+2\cdot3=2+6=8,
-$$
-
-$$
-(AB)_{12}=1\cdot0+2\cdot1=0+2=2,
-$$
-
-$$
-(AB)_{21}=0\cdot2+1\cdot3=0+3=3,
-$$
-
-$$
-(AB)_{22}=0\cdot0+1\cdot1=0+1=1.
-$$
-
-Therefore,
-
-$$
-AB=\begin{pmatrix}
+3 & 1 \\
+\end{pmatrix} \\
+&= \begin{pmatrix}
+1\cdot2 + 2\cdot3 & 1\cdot0 + 2\cdot1 \\
+0\cdot2 + 1\cdot3 & 0\cdot0 + 1\cdot1 \\
+\end{pmatrix} \\
+&= \begin{pmatrix}
+2 + 6 & 0 + 2 \\
+0 + 3 & 0 + 1 \\
+\end{pmatrix} \\
+&= \begin{pmatrix}
 8 & 2 \\
-3 & 1
-\end{pmatrix}.
+3 & 1 \\
+\end{pmatrix}
+\end{aligned}
 $$
 
-## 2. Compute $BA$
+**Step 2: Compute $BA$**
 
-Now reverse the order of multiplication:
+Now reverse the order of multiplication, multiplying rows of $B$ by columns of $A$:
 
 $$
-BA =
-\begin{pmatrix}
+\begin{aligned}
+BA &= \begin{pmatrix}
 2 & 0 \\
-3 & 1
+3 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
 1 & 2 \\
-0 & 1
-\end{pmatrix}.
-$$
-
-Calculate each entry:
-
-$$
-(BA)_{11}=2\cdot1+0\cdot0=2,
-$$
-
-$$
-(BA)_{12}=2\cdot2+0\cdot1=4,
-$$
-
-$$
-(BA)_{21}=3\cdot1+1\cdot0=3,
-$$
-
-$$
-(BA)_{22}=3\cdot2+1\cdot1=6+1=7.
-$$
-
-Therefore,
-
-$$
-BA=\begin{pmatrix}
+0 & 1 \\
+\end{pmatrix} \\
+&= \begin{pmatrix}
+2\cdot1 + 0\cdot0 & 2\cdot2 + 0\cdot1 \\
+3\cdot1 + 1\cdot0 & 3\cdot2 + 1\cdot1 \\
+\end{pmatrix} \\
+&= \begin{pmatrix}
+2 + 0 & 4 + 0 \\
+3 + 0 & 6 + 1 \\
+\end{pmatrix} \\
+&= \begin{pmatrix}
 2 & 4 \\
-3 & 7
-\end{pmatrix}.
+3 & 7 \\
+\end{pmatrix}
+\end{aligned}
 $$
 
-## 3. Is $AB=BA$?
+**Step 3: Compare $AB$ and $BA$**
 
-The two products are
+Comparing the two resulting matrices entry by entry:
 
 $$
-AB=\begin{pmatrix}
+AB = \begin{pmatrix}
 8 & 2 \\
-3 & 1
+3 & 1 \\
 \end{pmatrix},
 \qquad
-BA=\begin{pmatrix}
+BA = \begin{pmatrix}
 2 & 4 \\
-3 & 7
-\end{pmatrix}.
+3 & 7 \\
+\end{pmatrix}
 $$
 
-They are not equal because their corresponding entries are not all equal. For example, the top-left entries are $8$ and $2$.
+For two matrices to be equal, all corresponding entries must match. Checking the entries:
+* Entry $(1, 1)$: $(AB)_{11} = 8 \neq 2 = (BA)_{11}$
+* Entry $(1, 2)$: $(AB)_{12} = 2 \neq 4 = (BA)_{12}$
+* Entry $(2, 2)$: $(AB)_{22} = 1 \neq 7 = (BA)_{22}$
 
-Thus,
-
-$$
-AB\ne BA.
-$$
-
-## 4. Noncommutativity of Matrix Multiplication
-
-Multiplication of real numbers is commutative: for any real numbers $x$ and $y$, we have $xy=yx$.
-
-However, matrix multiplication is not commutative in general. This means that changing the order of the factors can change the result:
+Because the corresponding entries are not equal:
 
 $$
-AB\ne BA.
+AB \neq BA
 $$
 
-The matrices in this exercise provide a direct example of this property. Although both products are defined, they produce different matrices.
+**Step 4: Explanation of Noncommutativity**
 
-## Verification
+In real number arithmetic, multiplication is commutative: for any numbers $a$ and $b$, $a \cdot b = b \cdot a$.
 
-Both products have size $2\times2$, which is consistent with the dimension rule for multiplying two $2\times2$ matrices.
+In matrix algebra, multiplication is **not commutative** in general:
+1. Matrix multiplication is defined as an inner product between rows of the first matrix and columns of the second matrix.
+2. In $AB$, row 1 of $A$ interacts with column 1 of $B$: $1\cdot 2 + 2\cdot 3 = 8$. In $BA$, row 1 of $B$ interacts with column 1 of $A$: $2\cdot 1 + 0\cdot 0 = 2$. These form completely different inner products.
+3. Even when both matrices are square and of the same size (so both $AB$ and $BA$ are well-defined with identical dimensions), the resulting products typically differ.
+4. Hence, the order of matrix factors matters, and $AB \neq BA$ in general.
 
-The entries of $AB$ and $BA$ have been calculated independently using row-by-column multiplication. Since their top-left entries differ, the two matrices cannot be equal.
+**Step 5: Verification**
 
-Therefore, the example confirms that matrix multiplication is not commutative in general.
+* Dimension check: Multiplying two $2 \times 2$ matrices produces a $2 \times 2$ matrix in both orders.
+* Individual entry verification:
+  * For $AB$:
+    * $(AB)_{11} = 1(2) + 2(3) = 8$
+    * $(AB)_{12} = 1(0) + 2(1) = 2$
+    * $(AB)_{21} = 0(2) + 1(3) = 3$
+    * $(AB)_{22} = 0(0) + 1(1) = 1$
+  * For $BA$:
+    * $(BA)_{11} = 2(1) + 0(0) = 2$
+    * $(BA)_{12} = 2(2) + 0(1) = 4$
+    * $(BA)_{21} = 3(1) + 1(0) = 3$
+    * $(BA)_{22} = 3(2) + 1(1) = 7$
+* Both calculations have been independently verified, confirming $AB \neq BA$.
+
+---
+
+### Final Answer
+
+Calculated products:
+
+$$
+AB = \begin{pmatrix}
+8 & 2 \\
+3 & 1 \\
+\end{pmatrix},
+\qquad
+BA = \begin{pmatrix}
+2 & 4 \\
+3 & 7 \\
+\end{pmatrix}
+$$
+
+Are the products equal:
+
+$$
+AB \neq BA
+$$
+
+Matrix multiplication is **not commutative**: reversing the multiplication order pairs different rows and columns together, producing different resulting matrices.
