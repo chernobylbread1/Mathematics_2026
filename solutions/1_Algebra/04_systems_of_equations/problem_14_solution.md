@@ -242,3 +242,4 @@ $$
 
 3. **Explanation:**
    The first two equations uniquely fix the point $(x, y) = (1, 1)$. This requires $3x$ to evaluate to $3$. In System 1, the right-hand side is $3$, so the third equation is satisfied (concurrent lines). In System 2, changing $3$ to $3.1$ creates a geometric mismatch ($3 \neq 3.1$), shifting the third line away from the intersection point and making the system inconsistent.
+

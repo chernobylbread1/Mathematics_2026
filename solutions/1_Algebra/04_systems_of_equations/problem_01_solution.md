@@ -255,3 +255,4 @@ Each row vector in matrix $A$ acts as a linear functional that computes the left
 
 3. **Row Correspondence:**
    Row $i$ of matrix $A$ contains the coefficients of $x$, $y$, and $z$ from the $i$-th equation, so the inner product of row $i$ with $x$ yields the left-hand side of equation $i$, which equals component $b_i$.
+

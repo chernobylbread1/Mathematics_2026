@@ -205,3 +205,4 @@ $$
 
 2. **Critical Value Analysis:**
    The standard elimination step of solving $y = \frac{1}{t-1}$ and $z = \frac{2}{t-1}$ breaks down at $t = 1$ due to division by zero. Substituting $t = 1$ yields the contradiction $0 = 1$, confirming there are no solutions.
+

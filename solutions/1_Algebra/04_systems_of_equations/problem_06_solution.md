@@ -163,3 +163,4 @@ Because $\mathrm{rank}(A) = 1 < 2$ for all $a$:
 2. **The Case That Cannot Occur:**
    * **Exactly one solution** cannot occur for any real value of $a$.
    * **Reason:** The determinant $\det A = a - a = 0$ is identically zero for all $a$, meaning the coefficient matrix never has full rank ($\mathrm{rank}(A) = 1 < 2$). Thus, the two equations are either contradictory ($a \neq 2$) or redundant ($a = 2$), but never independent.
+

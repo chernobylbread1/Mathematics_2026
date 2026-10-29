@@ -266,3 +266,4 @@ which confirms that the trivial solution $(0, 0, 0)$ is indeed contained within 
 
 2. **Why $(0,0,0)$ Always Satisfies Any Homogeneous System:**
    In every equation of a homogeneous system, each variable is multiplied by its coefficient and summed to produce zero ($a_{i1}x_1 + \dots + a_{in}x_n = 0$). Substituting $x_1 = \dots = x_n = 0$ results in a sum of zeros which identically equals zero ($A \mathbf{0} = \mathbf{0}$). Therefore, $(0,0,0)$ is always a solution (the trivial solution).
+

@@ -214,3 +214,4 @@ Hence, the third equation adds no new information or geometric restriction, maki
    $$
 
    which is identically Equation 3 ($E_3 = E_1 - E_2$).
+

@@ -145,3 +145,4 @@ For case 1, carry out the chosen method completely. For cases 2 and 3, describe 
 3. **Case 3 (One $3 \times 3$ system, unknown $A^{-1}$):**
    * **Chosen Method:** Gaussian elimination on $[A \mid b]$ with back-substitution.
    * **Analysis:** Inverting $A$ from scratch requires approximately three times more work than eliminating $[A \mid b]$. Because there is only a single right-hand side, $A^{-1}$ would have no future utility, making its calculation completely unnecessary.
+

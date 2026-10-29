@@ -190,3 +190,4 @@ Both equations are satisfied.
 
 2. **Geometric Reason for Uniqueness:**
    The equations represent two straight lines in $\mathbb{R}^2$ with distinct slopes ($m_1 = -1$ and $m_2 = -0.4$). Since their slopes are unequal, the lines are neither parallel nor identical; they must intersect at precisely one point in the plane.
+

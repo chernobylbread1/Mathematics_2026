@@ -252,3 +252,4 @@ All three points are verified.
    * $p(0) = 1$ (matches $(0,1)$)
    * $p(1) = 3$ (matches $(1,3)$)
    * $p(2) = 9$ (matches $(2,9)$)
+
