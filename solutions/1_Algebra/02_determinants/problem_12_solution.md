@@ -193,3 +193,4 @@ $$
 
 Special row behavior:
 At $t = 6$, row 2 becomes an exact multiple of row 1 ($R_2 = 2R_1$). The rows become linearly dependent and the rank drops to $2 < 3$, rendering the matrix non-invertible.
+

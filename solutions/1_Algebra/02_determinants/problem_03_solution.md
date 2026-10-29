@@ -128,3 +128,4 @@ Predicted and verified determinant of $B$:
 $$
 \det B = -6
 $$
+

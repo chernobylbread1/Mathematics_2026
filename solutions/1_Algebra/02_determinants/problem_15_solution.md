@@ -202,3 +202,4 @@ Calculated determinant:
 $$
 \det\left(B^{-1}A^TB\right) = -2
 $$
+
