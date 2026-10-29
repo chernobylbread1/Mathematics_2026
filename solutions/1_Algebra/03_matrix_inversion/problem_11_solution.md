@@ -229,3 +229,4 @@ $$
 
 Behavior at excluded values:
 At $t = \pm 1$, the denominator $1 - t^2$ becomes zero, causing the formula to fail due to division by zero. At these values, the rows of $A(t)$ become linearly dependent ($R_1 = R_2$ when $t = 1$ and $R_2 = -R_1$ when $t = -1$), reducing the rank to $1$ and making the matrix singular.
+

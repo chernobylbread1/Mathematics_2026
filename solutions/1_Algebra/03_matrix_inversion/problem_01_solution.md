@@ -193,3 +193,4 @@ $$
 
 Conclusion:
 Because $AB = I$ and $BA = I$, the matrix $B$ satisfies the definition of the inverse, and therefore $B = A^{-1}$.
+
