@@ -153,3 +153,4 @@ The two planes are **perpendicular** (orthogonal).
 
 4. **Explanation:**
    The normal vectors capture the full angular orientation of the planes in space. Because rotating each plane by $90^\circ$ yields its normal vector, the angle between the planes is identical to the angle between their normals, making point coordinates and intersection line constructions redundant.
+

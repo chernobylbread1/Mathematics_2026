@@ -209,3 +209,4 @@ $$
    $$
 
    Because $\overrightarrow{PQ}$ is collinear with the normal vector $n = (1, 2, 2)$, the segment $PQ$ is perpendicular to the plane.
+

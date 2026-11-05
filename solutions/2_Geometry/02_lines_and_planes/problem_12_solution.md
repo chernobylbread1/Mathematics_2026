@@ -243,3 +243,4 @@ Every point on the line simultaneously satisfies both plane equations.
    $$
 
    The two vectors are collinear, differing only by the non-zero scaling factor $-2$. They define the exact same line of intersection.
+

@@ -193,3 +193,4 @@ Because the identity holds for every point on $L$ and for point $P$, the derived
 3. **Verifications:**
    * Point $P(0, 2, 1): 0 + 2(2) + 3(1) = 7$
    * Entire line: $(1 + t) + 2(t) + 3(2 - t) = 7$ for all $t \in \mathbb{R}$.
+

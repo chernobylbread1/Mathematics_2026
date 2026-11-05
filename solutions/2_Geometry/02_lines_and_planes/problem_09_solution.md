@@ -157,3 +157,4 @@ In both cases:
    $$
 
    The normal direction represents the unique perpendicular path of minimum distance between the point and the hyperplane.
+

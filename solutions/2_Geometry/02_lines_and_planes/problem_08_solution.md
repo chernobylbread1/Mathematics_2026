@@ -182,3 +182,4 @@ Because point $Q$ satisfies both the line and the plane equations simultaneously
 3. **Verification:**
    * In plane: $\frac{3}{2} + 1 + \frac{3}{2} = 4$
    * On line: $(1, 0, 2) + \frac{1}{2}(1, 2, -1) = \left(\frac{3}{2}, 1, \frac{3}{2}\right)$
+

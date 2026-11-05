@@ -164,3 +164,4 @@ Therefore, the lines $L_1$ and $L_2$ are non-coplanar, confirming they are **ske
    * Their direction vectors $v_1 = (1, 2, 1)$ and $v_2 = (0, 1, -1)$ are not scalar multiples of each other, ruling out parallelism.
    * Equating the parametric descriptions yields the contradiction $1 = -2$, confirming they have no common point.
    * The scalar triple product $\overrightarrow{P_1 P_2} \cdot (v_1 \times v_2) = -3 \neq 0$ proves that no single plane can contain both lines.
+

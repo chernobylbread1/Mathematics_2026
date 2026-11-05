@@ -197,3 +197,4 @@ The midpoint satisfies the plane equation, verifying the geometric symmetry of t
    $$
 
    The midpoint coincides with the orthogonal projection and strictly satisfies the plane equation.
+
