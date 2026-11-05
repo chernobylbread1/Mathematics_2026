@@ -159,3 +159,4 @@ The critical points partition $[0, 2\pi]$ into three subintervals:
 3. **Comparison with Endpoints:**
    * Endpoints: $f(0) = 1$ and $f(2\pi) = 1$
    * Both endpoint values satisfy $-\sqrt{2} < 1 < \sqrt{2}$, confirming that the absolute extrema occur strictly in the interior of the interval at the stationary points.
+

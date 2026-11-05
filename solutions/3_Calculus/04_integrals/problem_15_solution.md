@@ -179,3 +179,4 @@ Both conditions are satisfied.
 4. **Verification:**
    * $F'(x) = \frac{d}{dx}[e^{x^2} + 2] = 2x e^{x^2}$
    * $F(0) = e^0 + 2 = 1 + 2 = 3$
+

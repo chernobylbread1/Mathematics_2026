@@ -243,3 +243,4 @@ The numerical data clearly shows the area peaking at $750.00\ \mathrm{m}^2$ at $
 
 5. **Modeling vs. Calculation:**
    Modeling consists of creating the objective function and domain from spatial and cost constraints; calculation is the mechanical differentiation and equation-solving that identifies the vertex.
+

@@ -168,3 +168,4 @@ The point $(1, f(1)) = (1, 0)$ is the inflection point, which also happens to be
    * Critical points: $(0, 2)$ (local max) and $(2, -2)$ (local min)
    * Inflection point: $(1, 0)$
    * Polynomial limits: $\lim_{x \to -\infty} f(x) = -\infty$ and $\lim_{x \to \infty} f(x) = +\infty$
+

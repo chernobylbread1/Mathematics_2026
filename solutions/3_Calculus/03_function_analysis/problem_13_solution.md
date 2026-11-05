@@ -175,3 +175,4 @@ To produce an accurate sketch without missing essential qualitative behaviors, t
 
 5. **Essential Information for the Sketch:**
    The combination of the vertical asymptote at $x = 0^+$, the zero at $x = 1$, the peak at $\left(e, 1/e\right)$, the inflection change at $x = e^{3/2}$, and the horizontal approach to $y = 0$ from above as $x \to \infty$.
+

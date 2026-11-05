@@ -124,3 +124,4 @@ $$
    $$
 
    The value is zero (horizontal tangent, stationary point).
+

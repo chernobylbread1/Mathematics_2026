@@ -110,3 +110,4 @@ $$
 
 2. **Conceptual Explanation:**
    The limit evaluates the value that $f(x)$ approaches as $x$ gets arbitrarily close to $3$ in a punctured neighborhood ($x \neq 3$). Therefore, whether $f(3)$ exists or what value it assumes has no bearing on the limit.
+

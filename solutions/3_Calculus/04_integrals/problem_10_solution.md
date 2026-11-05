@@ -158,3 +158,4 @@ An a priori geometric estimate establishes an envelope that catches several majo
 
 4. **Errors Detected by the Check:**
    The check detects sign errors (negative results), wrong operations (such as differentiation instead of integration), incorrect exponent rules, or misapplied limits of integration.
+

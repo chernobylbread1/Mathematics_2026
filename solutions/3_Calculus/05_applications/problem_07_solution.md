@@ -149,3 +149,4 @@ $$
 
 3. **Independence from $N_0$:**
    $N_0$ cancels out algebraically from $N_0 e^{k T_d} = 2 N_0$. Geometrically and biologically, because the per-capita growth rate $\frac{N'(t)}{N(t)} = k$ is constant, any population doubles in the same time interval regardless of whether it starts small or large.
+

@@ -124,3 +124,4 @@ Both methods rigorously yield $\frac{1}{2}$ without invoking derivatives.
 2. **Justification:**
    * Multiplying by the conjugate $1 + \cos x$ converts the numerator to $\sin^2 x$.
    * Grouping as $\left(\frac{\sin x}{x}\right)^2 \cdot \frac{1}{1 + \cos x}$ reduces the problem directly to the fundamental limit $1^2 \cdot \frac{1}{2} = \frac{1}{2}$.
+

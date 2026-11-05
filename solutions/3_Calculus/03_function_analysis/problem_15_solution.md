@@ -155,3 +155,4 @@ Evaluate $f'(x) = 3(x - 1)(x + 1)$ at one simple test value in each interval:
    * $x = -2 \implies f'(-2) = 9 > 0$
    * $x = 0 \implies f'(0) = -3 < 0$
    * $x = 2 \implies f'(2) = 9 > 0$
+

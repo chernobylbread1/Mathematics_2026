@@ -127,3 +127,4 @@ For each integral, first write which method you choose and how you recognize it,
      $$
      \int\frac{x}{\sqrt{x^2+1}}\,dx = \sqrt{x^2+1} + C
      $$
+

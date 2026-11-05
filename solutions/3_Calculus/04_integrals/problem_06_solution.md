@@ -130,3 +130,4 @@ $$
 
 3. **Source of the Logarithm:**
    The integrand matches the form $\frac{g'(x)}{g(x)}$. Because the derivative of $\ln(u)$ is $\frac{1}{u}$, reversing the chain rule for $\frac{g'(x)}{g(x)}$ produces $\ln|g(x)|$.
+

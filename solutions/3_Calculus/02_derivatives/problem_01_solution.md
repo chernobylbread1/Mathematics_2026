@@ -105,3 +105,4 @@ $$
 
 3. **Geometric Interpretation:**
    At both $x = 0$ and $x = 1$, the tangent lines have positive slopes ($m = 7$ and $m = 16$, respectively), meaning the graph is strictly increasing in the neighborhood of both points, with greater steepness at $x = 1$.
+

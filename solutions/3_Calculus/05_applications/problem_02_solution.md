@@ -145,3 +145,4 @@ $$
 
 4. **Justification:**
    $A''(x) = -2 < 0$ on $(0, 20)$, proving that $x = 10$ is a strict global maximum.
+

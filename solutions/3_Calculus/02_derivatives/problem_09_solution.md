@@ -122,3 +122,4 @@ Because the denominator is strictly positive for all $x$, it does not affect the
 
 3. **Qualitative Behavior Around Zero:**
    The function decreases on $(-\infty, 0)$, reaches a strict global minimum at $(0, 0)$ with a horizontal tangent ($m = 0$), and increases on $(0, \infty)$, forming an even, smooth U-shaped curve.
+

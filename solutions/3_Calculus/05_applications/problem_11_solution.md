@@ -144,3 +144,4 @@ $$
 
 3. **Origin of $\pi y^2$:**
    Rotating the vertical segment of height $y$ around the $x$-axis generates a circular cross-section with radius $r = y$. The term $\pi y^2$ is the exact geometric area of this circular cross-sectional slice ($\pi r^2$).
+

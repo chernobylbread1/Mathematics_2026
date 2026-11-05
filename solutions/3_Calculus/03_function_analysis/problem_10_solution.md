@@ -196,3 +196,4 @@ $$
    $$
    \left(-\sqrt{3}, -\frac{\sqrt{3}}{4}\right), \qquad (0, 0), \qquad \left(\sqrt{3}, \frac{\sqrt{3}}{4}\right)
    $$
+

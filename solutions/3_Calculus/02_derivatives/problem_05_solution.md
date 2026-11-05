@@ -134,3 +134,4 @@ $$
 
 3. **Origin of the Factor $(6x - 2)$:**
    The factor represents the instantaneous rate of change of the inner quantity with respect to $x$ ($\frac{du}{dx}$). It acts as a multiplier transmitting changes in the input $x$ to the outer power.
+

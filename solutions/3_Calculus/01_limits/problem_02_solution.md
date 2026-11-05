@@ -156,3 +156,4 @@ The sequence diverges to $+\infty$.
    * $\deg(\mathrm{numerator}) < \deg(\mathrm{denominator}) \implies$ limit is $0$.
    * $\deg(\mathrm{numerator}) = \deg(\mathrm{denominator}) \implies$ limit is the ratio of leading coefficients.
    * $\deg(\mathrm{numerator}) > \deg(\mathrm{denominator}) \implies$ expression diverges to $\pm\infty$.
+

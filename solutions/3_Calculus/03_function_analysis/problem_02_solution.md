@@ -139,3 +139,4 @@ $$
 
 3. **Why Both Approaches Agree:**
    The vertex of an upward-opening parabola is its unique lowest geometric point. Because the parabola is smooth, this turning point corresponds precisely to the unique location where the tangent line is horizontal ($f'(x) = 0$).
+

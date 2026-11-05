@@ -162,3 +162,4 @@ is the oblique asymptote of the function as both $x \to +\infty$ and $x \to -\in
 
 4. **Why the Remainder Vanishes:**
    The remainder term $\frac{2}{x-1}$ has a fixed constant numerator $2$ and a denominator that grows without bound as $|x| \to \infty$. Its magnitude tends to $0$, meaning the vertical gap between the curve and the line $y = x + 1$ vanishes asymptotically.
+

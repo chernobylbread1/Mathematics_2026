@@ -189,3 +189,4 @@ The specific graph of $g(x)$ confirms every qualitative feature predicted from $
 4. **Specific Extrema Values for $g(x)$:**
    * Local Maximum: $\left(-2, \frac{10}{3}\right)$
    * Local Minimum: $\left(1, -\frac{7}{6}\right)$
+

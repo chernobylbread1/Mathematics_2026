@@ -215,3 +215,4 @@ The minimum cost occurs strictly at $x = \frac{100\sqrt{3}}{3} \approx 57.74\ \m
    $$
    C_{\min} = c(100\sqrt{3} + 500) \approx 673.21 c
    $$
+

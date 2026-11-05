@@ -126,3 +126,4 @@ $$
 
 3. **Importance of $x \neq 1$:**
    The point $x = 1$ is an essential singularity (vertical asymptote) where neither $f$ nor $f'$ exists. The restriction $x \neq 1$ ensures that the domain is properly partitioned into two disjoint open intervals, preventing erroneous applications of calculus theorems across the singularity.
+

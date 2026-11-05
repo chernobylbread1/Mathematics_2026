@@ -111,3 +111,4 @@ $$
 2. **Explanation of Additional Factors:**
    * **Factor $2$:** Produced by the chain rule as the derivative of the inner linear function $\frac{d}{dx}[2x-3] = 2$.
    * **Factor $\ln 5$:** Produced by the base conversion $5^x = e^{x \ln 5}$, where $\ln 5$ is the intrinsic rate coefficient of exponential growth with base $5$.
+

@@ -117,3 +117,4 @@ $$
 
 2. **Comparison with Exercise 3:**
    Both problems use multiplication by the conjugate $(\sqrt{A} + B)$ to invoke the difference of squares identity. While Exercise 3 resolved an $\infty - \infty$ form at infinity by turning subtraction into addition, Exercise 8 resolves a $\frac{0}{0}$ form at a finite point by creating and canceling the singular factor $(x - 4)$.
+

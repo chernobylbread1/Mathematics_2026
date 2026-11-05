@@ -141,3 +141,4 @@ The derivative matches the original integrand.
    $$
    \frac{d}{dx}\left[(x - 1)e^x + C\right] = 1 \cdot e^x + (x - 1)e^x = x e^x
    $$
+

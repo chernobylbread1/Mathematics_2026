@@ -133,3 +133,4 @@ $$
 
 3. **Direction of the Tangent Line:**
    The tangent line at $(0, 1)$ is horizontal (slope $m = 0$) with equation $y = 1$.
+

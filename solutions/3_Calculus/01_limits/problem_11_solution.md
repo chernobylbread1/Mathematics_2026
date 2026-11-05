@@ -159,3 +159,4 @@ $$
 2. **Dominant Term and Transformation:**
    * The term $5^n$ dominates because $\lim_{n \to \infty} (2/5)^n = 0$.
    * Instead of dividing two polynomials by a common power of $n$, we factor $5^n$ out from under the radical as $\sqrt[n]{5^n} = 5$. The remaining factor $(1 + (2/5)^n)^{1/n}$ approaches $1^{0} = 1$ by the Squeeze Theorem.
+

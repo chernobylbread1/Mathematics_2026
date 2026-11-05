@@ -160,3 +160,4 @@ The exact evaluation confirms the prediction of $4$.
 
 3. **Explanation of Difference:**
    The integral of $x$ measures signed area, where opposite signs cancel ($2 - 2 = 0$). The integral of $|x|$ measures total geometric area, eliminating cancellation and summing both positive triangles ($2 + 2 = 4$).
+

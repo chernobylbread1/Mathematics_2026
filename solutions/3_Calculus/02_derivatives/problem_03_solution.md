@@ -127,3 +127,4 @@ $$
 
 3. **Conceptual Reason:**
    The product rule demands summing the rates of change contributed by both factors: $(u v)' = u' v + u v'$. The erroneous calculation differentiated only the polynomial factor while treating the non-constant exponential factor $e^x$ as a static multiplier.
+

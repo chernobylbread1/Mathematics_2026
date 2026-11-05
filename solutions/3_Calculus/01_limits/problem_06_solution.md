@@ -103,3 +103,4 @@ $$
 2. **Comparison of Methods:**
    * **Methodological Identity:** Factoring out the dominant power $x^2$ algebraically reduces the expression to reciprocals that tend to zero, yielding the ratio of leading coefficients $3/5$, identical to the discrete sequence case.
    * **Conceptual Difference:** The discrete index $n \in \mathbb{N}$ is replaced by a continuous real variable $x \in \mathbb{R}$. The limit holds across the entire continuum of values rather than isolated points.
+

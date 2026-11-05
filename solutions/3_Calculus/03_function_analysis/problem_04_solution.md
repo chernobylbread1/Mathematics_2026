@@ -167,3 +167,4 @@ Thus, the sign of $f'(x)$ is governed entirely by $-2x$:
 
 5. **Importance of Separate Interval Analysis:**
    The domain consists of disconnected intervals separated by asymptotes. Monotonicity and the Mean Value Theorem apply only within individual connected intervals; claiming monotonicity across the union is invalidated by the discontinuous jump across the asymptotes.
+

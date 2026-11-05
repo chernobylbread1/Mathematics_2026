@@ -157,3 +157,4 @@ The derivative of the definite integral with respect to its variable upper limit
 
 4. **Geometric Explanation:**
    Advancing the boundary by $\Delta x$ adds a thin vertical strip of area $\Delta F \approx f(x) \cdot \Delta x$. Dividing by $\Delta x$ gives the instantaneous rate of area accumulation $\frac{dF}{dx} = f(x)$, proving that the height of the curve is the rate of increase of the accumulated area.
+

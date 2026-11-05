@@ -169,3 +169,4 @@ The geometric area matches the analytical calculation.
 
 3. **Geometric Verification:**
    The region under the graph decomposes into a right triangle of base $2$ and height $2$ (area $2$) plus a rectangle of width $2$ and height $2$ (area $4$). The sum of their geometric areas is $2 + 4 = 6$.
+

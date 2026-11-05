@@ -119,3 +119,4 @@ The result matches the integrand.
    $$
    \frac{d}{dx}\left[x \sin x + \cos x + C\right] = \sin x + x \cos x - \sin x = x \cos x
    $$
+

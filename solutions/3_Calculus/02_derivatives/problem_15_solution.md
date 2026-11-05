@@ -149,3 +149,4 @@ As $h$ decreases by successive factors of $10$, the difference quotient systemat
 
 3. **Methodological Conclusion:**
    The numerical progression $2.0 \to 1.1 \to 1.01$ reflects the secant lines converging geometrically to the tangent slope of $1$. However, empirical sampling can never replace an analytical limit proof, which proves that the difference quotient approaches $1$ across the entire continuum as $h \to 0$.
+

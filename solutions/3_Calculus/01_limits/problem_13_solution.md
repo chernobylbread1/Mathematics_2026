@@ -130,3 +130,4 @@ $$
    $$
 
    *Reduction:* Divide numerator and denominator by $x$ and scale by coefficients to get $\frac{2}{3} \cdot \frac{\frac{\sin 2x}{2x}}{\frac{\sin 3x}{3x}}$, evaluating to $\frac{2}{3} \cdot \frac{1}{1} = \frac{2}{3}$.
+

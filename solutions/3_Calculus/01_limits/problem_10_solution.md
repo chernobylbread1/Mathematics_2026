@@ -140,3 +140,4 @@ All three values equal $3$. Hence, $f(x)$ is continuous at $x = 2$.
 
 3. **Conclusion:**
    For $a = 1$, $\lim_{x \to 2^-} f(x) = \lim_{x \to 2^+} f(x) = f(2) = 3$, satisfying the definition of continuity.
+

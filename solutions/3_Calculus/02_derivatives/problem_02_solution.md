@@ -136,3 +136,4 @@ The function is differentiable at every single point in its domain.
 
 4. **Domain Comparison:**
    $D_{f'} = (0, \infty)$, which coincides exactly with $D_f$.
+

@@ -139,3 +139,4 @@ $$
 
 2. **Why Conjugation Works:**
    Multiplying by the conjugate converts the indeterminate difference $\infty - \infty$ into an algebraic fraction through the identity $(A - B)(A + B) = A^2 - B^2$. This analytically eliminates the conflicting leading $n^2$ terms in the numerator, yielding $5n$, while replacing the subtraction in the denominator with an addition $\sqrt{n^2+5n} + n \sim 2n$, resulting in the determinate ratio $5/2$.
+

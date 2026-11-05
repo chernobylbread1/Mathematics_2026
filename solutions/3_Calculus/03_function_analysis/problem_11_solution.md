@@ -163,3 +163,4 @@ The derivative is strictly positive everywhere. The function has **zero critical
 
 4. **Geometric Transition:**
    As $a$ decreases through $0$, the pair of local extrema merge at $(0, 0)$ at $a = 0$ and vanish for $a < 0$, straightening the cubic wave into a monotonic curve.
+

@@ -137,3 +137,4 @@ The result obtained from first principles matches the power rule.
 
 3. **Where the Limit is Used:**
    The limit is invoked in the final transition from the secant slope $2x + h$ to the instantaneous slope $2x$, eliminating the increment $h$ after the $0/0$ singularity has been canceled.
+

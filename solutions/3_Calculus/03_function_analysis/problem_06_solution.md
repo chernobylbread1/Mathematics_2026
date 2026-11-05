@@ -151,3 +151,4 @@ Since $x > 0$ on the entire domain, the denominator $x$ is always positive. The 
 
 4. **Why the Domain Must Come First:**
    The logarithm $\ln x$ is defined strictly for $x > 0$. Finding derivatives or solving equations without restricting to the domain produces invalid conclusions and false critical points. The domain defines the boundary $x \to 0^+$ and frames all subsequent analysis.
+

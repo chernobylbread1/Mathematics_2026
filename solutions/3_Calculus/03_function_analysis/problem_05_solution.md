@@ -169,3 +169,4 @@ $$
 
 4. **Shape Effect on the Right:**
    The horizontal asymptote $y = 0$ forces the decreasing curve to remain strictly positive, passing through an inflection point at $\left(2, \frac{2}{e^2}\right)$ where the concavity changes from downward to upward, creating a smooth horizontal tail.
+

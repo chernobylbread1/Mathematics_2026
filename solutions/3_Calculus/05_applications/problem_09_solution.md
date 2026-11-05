@@ -179,3 +179,4 @@ Since the second derivative is strictly positive everywhere on the domain, the f
 
 5. **Geometric Interpretation:**
    The height of the cylinder equals its diameter ($h = d$). The central axial cross-section of the most efficient can is a square ($2r \times 2r$), which provides the most compact shape and minimizes surface area per unit volume.
+

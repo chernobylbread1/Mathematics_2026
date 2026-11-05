@@ -157,3 +157,4 @@ $$
    * Substituting $u = 3x$ transforms the exponent into $\frac{1}{x} = \frac{3}{u}$.
    * The expression rewrites as $\left[(1 + u)^{1/u}\right]^3$.
    * Since $\lim_{u \to 0} (1 + u)^{1/u} = e$ (the continuous extension of the sequence limit from Exercise 5), the overall limit evaluates directly to $e^3$.
+
