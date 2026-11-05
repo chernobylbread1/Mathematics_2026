@@ -1,4 +1,20 @@
-### Essential Formulas
+### Problem Statement
+
+For
+
+$$
+\frac{x^2}{16}-\frac{y^2}{9}=1,
+$$
+
+find the intercepts with the $x$-axis, the asymptotes, and make a sketch. Explain why the asymptotes describe the behavior of the curve far from the center.
+
+> **Why this exercise:** shows the role of asymptotes in understanding the global shape of a hyperbola.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Canonical Form of a Horizontal Hyperbola:**
 
@@ -34,22 +50,6 @@
    As $|x| \to \infty$, the term $\frac{a^2}{x^2} \to 0$, so $\sqrt{1 - \frac{a^2}{x^2}} \to 1$ and $y \to \pm \frac{b}{a} x$.
 
 ---
-
-### Problem Statement
-
-For
-
-$$
-\frac{x^2}{16}-\frac{y^2}{9}=1,
-$$
-
-find the intercepts with the $x$-axis, the asymptotes, and make a sketch. Explain why the asymptotes describe the behavior of the curve far from the center.
-
-> **Why this exercise:** shows the role of asymptotes in understanding the global shape of a hyperbola.
-
----
-
-### Solution
 
 **Step 1: Find the Intercepts with the $x$-Axis**
 
@@ -102,6 +102,10 @@ $$
 ---
 
 **Step 3: Geometric Sketch Description**
+
+The geometric sketch of the hyperbola with its asymptotes, vertices, and central box is shown below:
+
+![Hyperbola Sketch](ex05_hyperbola.png)
 
 * **Central Box:** Draw a reference rectangle centered at the origin $(0, 0)$ with horizontal side length $2a = 8$ (from $x = -4$ to $x = 4$) and vertical side length $2b = 6$ (from $y = -3$ to $y = 3$).
 * **Asymptotes:** The diagonals of this rectangle, extended infinitely, form the two asymptotes $y = \pm \frac{3}{4} x$.

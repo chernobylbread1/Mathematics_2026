@@ -1,4 +1,20 @@
-### Essential Formulas
+### Problem Statement
+
+Reduce
+
+$$
+x^2+y^2-6x+4y-3=0
+$$
+
+to canonical form. Find the center and radius, then substitute two simple points from the circle into both forms of the equation.
+
+> **Why this exercise:** practices completing the square as a transition from a general equation to the geometry of the object.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **General Equation of a Circle in $\mathbb{R}^2$:**
 
@@ -24,22 +40,6 @@
    $$
 
 ---
-
-### Problem Statement
-
-Reduce
-
-$$
-x^2+y^2-6x+4y-3=0
-$$
-
-to canonical form. Find the center and radius, then substitute two simple points from the circle into both forms of the equation.
-
-> **Why this exercise:** practices completing the square as a transition from a general equation to the geometry of the object.
-
----
-
-### Solution
 
 **Step 1: Group the Terms by Variable**
 

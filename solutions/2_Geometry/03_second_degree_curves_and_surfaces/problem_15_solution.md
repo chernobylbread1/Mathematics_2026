@@ -1,26 +1,3 @@
-### Essential Formulas
-
-1. **Canonical Form of a Translated Ellipse:**
-
-   $$
-   \frac{(x - x_0)^2}{a^2} + \frac{(y - y_0)^2}{b^2} = 1
-   $$
-
-   Center at $(x_0, y_0)$ with horizontal semiaxis $a$ and vertical semiaxis $b$.
-
-2. **Elliptic Cone:**
-
-   $$
-   \frac{x^2}{a^2} + \frac{y^2}{b^2} = \frac{z^2}{c^2}
-   $$
-
-   Apex at $(0, 0, 0)$. Horizontal cross-sections $z = c_0$ are ellipses with semiaxes proportional to $|c_0|$, and vertical planes through the origin yield pairs of intersecting straight lines.
-
-3. **Method of Traces (Cross-Sections):**
-   A quadric surface is identified geometrically by examining the families of curves produced by setting $z = \mathrm{const}$, $x = 0$, and $y = 0$.
-
----
-
 ### Problem Statement
 
 Consider the two equations:
@@ -42,6 +19,29 @@ For the second equation, do not begin by using a ready-made name for the surface
 ---
 
 ### Solution
+
+#### Essential Formulas
+
+1. **Canonical Form of a Translated Ellipse:**
+
+   $$
+   \frac{(x - x_0)^2}{a^2} + \frac{(y - y_0)^2}{b^2} = 1
+   $$
+
+   Center at $(x_0, y_0)$ with horizontal semiaxis $a$ and vertical semiaxis $b$.
+
+2. **Elliptic Cone:**
+
+   $$
+   \frac{x^2}{a^2} + \frac{y^2}{b^2} = \frac{z^2}{c^2}
+   $$
+
+   Apex at $(0, 0, 0)$. Horizontal cross-sections $z = c_0$ are ellipses with semiaxes proportional to $|c_0|$, and vertical planes through the origin yield pairs of intersecting straight lines.
+
+3. **Method of Traces (Cross-Sections):**
+   A quadric surface is identified geometrically by examining the families of curves produced by setting $z = \mathrm{const}$, $x = 0$, and $y = 0$.
+
+---
 
 **Step 1: First Equation — Reduce $4x^2 + 9y^2 - 8x + 36y + 4 = 0$ to Canonical Form**
 
@@ -186,6 +186,14 @@ For the second equation, do not begin by using a ready-made name for the surface
 * **Sketch Description:**
   A double cone with its vertex at the origin $(0, 0, 0)$. It opens upward into the positive half-space ($z > 0$) and downward into the negative half-space ($z < 0$).
   Unlike a standard circular cone, its cross-sections are compressed horizontally: in any slice $z = c$, the width along the $x$-axis is half the width along the $y$-axis.
+
+---
+
+**Step 5: Visual Sketches of the Shifted Ellipse and Elliptic Cone**
+
+The 2D plot of the shifted ellipse and the 3D model of the elliptic cone are shown below:
+
+![Sketches of Shifted Ellipse and Elliptic Cone](ex15_shifted_quadrics.png)
 
 ---
 

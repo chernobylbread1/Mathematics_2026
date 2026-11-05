@@ -1,4 +1,32 @@
-### Essential Formulas
+### Problem Statement
+
+Recognize the curves
+
+$$
+x^2+y^2=9,
+$$
+
+$$
+\frac{x^2}{16}+\frac{y^2}{9}=1,
+$$
+
+$$
+y^2=8x,
+$$
+
+$$
+\frac{x^2}{9}-\frac{y^2}{4}=1.
+$$
+
+For each one, identify the most important features and make a sketch. Explain which parts of the equation let you recognize the type of curve.
+
+> **Why this exercise:** builds the basic dictionary: canonical equation → type of curve → shape and scale.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Canonical Equations of Second-Degree Plane Curves (Conic Sections):**
    * **Circle:**
@@ -38,34 +66,6 @@
      $$
 
 ---
-
-### Problem Statement
-
-Recognize the curves
-
-$$
-x^2+y^2=9,
-$$
-
-$$
-\frac{x^2}{16}+\frac{y^2}{9}=1,
-$$
-
-$$
-y^2=8x,
-$$
-
-$$
-\frac{x^2}{9}-\frac{y^2}{4}=1.
-$$
-
-For each one, identify the most important features and make a sketch. Explain which parts of the equation let you recognize the type of curve.
-
-> **Why this exercise:** builds the basic dictionary: canonical equation → type of curve → shape and scale.
-
----
-
-### Solution
 
 **Step 1: Analyze Curve 1: $x^2 + y^2 = 9$**
 
@@ -152,6 +152,14 @@ For each one, identify the most important features and make a sketch. Explain wh
 
 * **Geometric Sketch Description:**
   Two separate symmetric open branches opening to the left ($x \le -3$) and to the right ($x \ge 3$), approaching the asymptote lines $y = \pm \frac{2}{3}x$ as $|x| \to \infty$.
+
+---
+
+**Step 5: Visual Sketches of the Four Curves**
+
+The four canonical curves with their principal geometric features, axes of symmetry, intercepts, and asymptotes are plotted below:
+
+![Sketches of Four Canonical Curves](ex01_curves.png)
 
 ---
 

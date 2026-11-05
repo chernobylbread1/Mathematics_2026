@@ -1,23 +1,3 @@
-### Essential Formulas
-
-1. **Relative Positions of Two Lines in $\mathbb{R}^3$:**
-   Two lines $L_1: X = P_1 + t v_1$ and $L_2: X = P_2 + s v_2$ can have one of four geometric relationships:
-   * **Coincident:** $v_1 \parallel v_2$ and $P_1 \in L_2$ (infinitely many common points).
-   * **Parallel (Disjoint):** $v_1 \parallel v_2$ and $P_1 \notin L_2$ (no common points, coplanar).
-   * **Intersecting:** $v_1 \nparallel v_2$ and there exists a unique pair $(t, s)$ such that $P_1 + t v_1 = P_2 + s v_2$ (one common point, coplanar).
-   * **Skew:** $v_1 \nparallel v_2$ and no intersection point exists (no common points, non-coplanar).
-
-2. **Coplanarity Criterion for Lines (Scalar Triple Product):**
-   Two lines are coplanar if and only if the displacement vector between their base points $\overrightarrow{P_1 P_2} = P_2 - P_1$ and their direction vectors $v_1, v_2$ are linearly dependent:
-
-   $$
-   \overrightarrow{P_1 P_2} \cdot (v_1 \times v_2) = 0
-   $$
-
-   If this scalar triple product is non-zero ($\neq 0$), the lines are **skew**.
-
----
-
 ### Problem Statement
 
 Analyze the position of
@@ -37,6 +17,26 @@ If they intersect, give the intersection point. If not, determine whether they a
 ---
 
 ### Solution
+
+#### Essential Formulas
+
+1. **Relative Positions of Two Lines in $\mathbb{R}^3$:**
+   Two lines $L_1: X = P_1 + t v_1$ and $L_2: X = P_2 + s v_2$ can have one of four geometric relationships:
+   * **Coincident:** $v_1 \parallel v_2$ and $P_1 \in L_2$ (infinitely many common points).
+   * **Parallel (Disjoint):** $v_1 \parallel v_2$ and $P_1 \notin L_2$ (no common points, coplanar).
+   * **Intersecting:** $v_1 \nparallel v_2$ and there exists a unique pair $(t, s)$ such that $P_1 + t v_1 = P_2 + s v_2$ (one common point, coplanar).
+   * **Skew:** $v_1 \nparallel v_2$ and no intersection point exists (no common points, non-coplanar).
+
+2. **Coplanarity Criterion for Lines (Scalar Triple Product):**
+   Two lines are coplanar if and only if the displacement vector between their base points $\overrightarrow{P_1 P_2} = P_2 - P_1$ and their direction vectors $v_1, v_2$ are linearly dependent:
+
+   $$
+   \overrightarrow{P_1 P_2} \cdot (v_1 \times v_2) = 0
+   $$
+
+   If this scalar triple product is non-zero ($\neq 0$), the lines are **skew**.
+
+---
 
 **Step 1: Check for Parallelism (Collinearity of Direction Vectors)**
 
@@ -164,4 +164,3 @@ Therefore, the lines $L_1$ and $L_2$ are non-coplanar, confirming they are **ske
    * Their direction vectors $v_1 = (1, 2, 1)$ and $v_2 = (0, 1, -1)$ are not scalar multiples of each other, ruling out parallelism.
    * Equating the parametric descriptions yields the contradiction $1 = -2$, confirming they have no common point.
    * The scalar triple product $\overrightarrow{P_1 P_2} \cdot (v_1 \times v_2) = -3 \neq 0$ proves that no single plane can contain both lines.
-

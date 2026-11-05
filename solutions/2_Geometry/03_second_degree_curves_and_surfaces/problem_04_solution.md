@@ -1,4 +1,20 @@
-### Essential Formulas
+### Problem Statement
+
+For
+
+$$
+y^2=12x,
+$$
+
+identify the vertex, axis of symmetry, and opening direction. Find points on the parabola for $x=3$ and use them to make a sketch.
+
+> **Why this exercise:** teaches how to move from the equation of a parabola to its basic geometry.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Canonical Equation of a Horizontal Parabola:**
    A parabola with vertex at the origin $V(0, 0)$ opening along the horizontal coordinate axis has the equation:
@@ -24,22 +40,6 @@
    * **Latus Rectum (Focal Chord Length):** The vertical chord passing through the focus has total length $2p$.
 
 ---
-
-### Problem Statement
-
-For
-
-$$
-y^2=12x,
-$$
-
-identify the vertex, axis of symmetry, and opening direction. Find points on the parabola for $x=3$ and use them to make a sketch.
-
-> **Why this exercise:** teaches how to move from the equation of a parabola to its basic geometry.
-
----
-
-### Solution
 
 **Step 1: Identify the Vertex, Axis of Symmetry, and Opening Direction**
 
@@ -126,6 +126,10 @@ $$
 ---
 
 **Step 3: Geometric Sketch Description**
+
+The geometric sketch of the parabola with its vertex, axis of symmetry, focus, and directrix is shown below:
+
+![Parabola Sketch](ex04_parabola.png)
 
 * **Vertex:** Positioned at the origin $(0, 0)$, where the tangent line is vertical ($x = 0$).
 * **Focal Chord (Latus Rectum):** At $x = 3$, the parabola passes through $(3, 6)$ above the axis and $(3, -6)$ below the axis.

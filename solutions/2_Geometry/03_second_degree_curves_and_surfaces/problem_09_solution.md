@@ -1,4 +1,20 @@
-### Essential Formulas
+### Problem Statement
+
+Consider
+
+$$
+\frac{x^2}{9}+\frac{y^2}{4}+\frac{z^2}{16}=1.
+$$
+
+Give the semiaxis lengths, describe the cross-section $z=0$, and explain how the cross-sections $z=c$ change for $|c|<4$.
+
+> **Why this exercise:** teaches how to understand a 3D surface through a family of simpler 2D cross-sections.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Canonical Equation of an Ellipsoid:**
    A central ellipsoid in $\mathbb{R}^3$ aligned with the coordinate axes has the equation:
@@ -21,22 +37,6 @@
    * If $1 - \frac{c_0^2}{c^2} < 0$ (i.e., $|c_0| > c$): the cross-section has no real points ($\emptyset$).
 
 ---
-
-### Problem Statement
-
-Consider
-
-$$
-\frac{x^2}{9}+\frac{y^2}{4}+\frac{z^2}{16}=1.
-$$
-
-Give the semiaxis lengths, describe the cross-section $z=0$, and explain how the cross-sections $z=c$ change for $|c|<4$.
-
-> **Why this exercise:** teaches how to understand a 3D surface through a family of simpler 2D cross-sections.
-
----
-
-### Solution
 
 **Step 1: Determine the Semiaxis Lengths**
 

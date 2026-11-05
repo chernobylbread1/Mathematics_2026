@@ -1,4 +1,19 @@
-### Essential Formulas
+### Problem Statement
+
+A certain surface has the following properties:
+- the cross-section $z=0$ is a point,
+- for $z>0$, the cross-sections $z=\mathrm{const}$ are circles with increasing radius,
+- vertical cross-sections through the $Oz$ axis are parabolas.
+
+Propose a simple equation for such a surface and justify your choice.
+
+> **Why this exercise:** reverses the usual reasoning: from geometry to an equation.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Equation of a Surface of Revolution Around the $z$-Axis:**
    A surface formed by revolving a profile curve in the $rz$-plane around the vertical $z$-axis has the equation:
@@ -30,21 +45,6 @@
    (typically chosen with $k = 1$ for the simplest standard form).
 
 ---
-
-### Problem Statement
-
-A certain surface has the following properties:
-- the cross-section $z=0$ is a point,
-- for $z>0$, the cross-sections $z=\mathrm{const}$ are circles with increasing radius,
-- vertical cross-sections through the $Oz$ axis are parabolas.
-
-Propose a simple equation for such a surface and justify your choice.
-
-> **Why this exercise:** reverses the usual reasoning: from geometry to an equation.
-
----
-
-### Solution
 
 **Step 1: Propose the Equation**
 

@@ -1,23 +1,3 @@
-### Essential Formulas
-
-1. **Elliptic Paraboloid:**
-
-   $$
-   z = \frac{x^2}{a^2} + \frac{y^2}{b^2}
-   $$
-
-   Vertical cross-sections are parabolas opening in the same direction, and horizontal cross-sections are ellipses (or circles when $a = b$).
-
-2. **Hyperbolic Paraboloid (Saddle Surface):**
-
-   $$
-   z = \frac{x^2}{a^2} - \frac{y^2}{b^2}
-   $$
-
-   Vertical cross-sections in orthogonal directions are parabolas opening in opposite directions (one upward, one downward). Horizontal cross-sections are hyperbolas (or intersecting lines at $z = 0$).
-
----
-
 ### Problem Statement
 
 Compare
@@ -39,6 +19,26 @@ For each surface, describe the cross-sections $x=0$, $y=0$, and $z=c$, then make
 ---
 
 ### Solution
+
+#### Essential Formulas
+
+1. **Elliptic Paraboloid:**
+
+   $$
+   z = \frac{x^2}{a^2} + \frac{y^2}{b^2}
+   $$
+
+   Vertical cross-sections are parabolas opening in the same direction, and horizontal cross-sections are ellipses (or circles when $a = b$).
+
+2. **Hyperbolic Paraboloid (Saddle Surface):**
+
+   $$
+   z = \frac{x^2}{a^2} - \frac{y^2}{b^2}
+   $$
+
+   Vertical cross-sections in orthogonal directions are parabolas opening in opposite directions (one upward, one downward). Horizontal cross-sections are hyperbolas (or intersecting lines at $z = 0$).
+
+---
 
 **Step 1: Cross-Section Analysis of Surface 1: $z = x^2 + y^2$ (Elliptic Paraboloid)**
 
@@ -129,6 +129,14 @@ For each surface, describe the cross-sections $x=0$, $y=0$, and $z=c$, then make
 | **Horizontal Slice $z = 0$** | Single point: $(0, 0, 0)$ | Pair of intersecting lines: $y = \pm x$ |
 | **Horizontal Slices $z = c < 0$** | Empty set ($\emptyset$) | Hyperbolas opening along $y$ |
 | **Geometry of Origin** | Global minimum (bowl bottom) | Saddle point (min along $x$, max along $y$) |
+
+---
+
+**Step 4: Qualitative 3D Sketches of Both Paraboloids**
+
+The 3D qualitative visualizations of both paraboloids (elliptic bowl and hyperbolic saddle) are shown below:
+
+![Qualitative Sketches of Both Paraboloids](ex10_paraboloids.png)
 
 ---
 

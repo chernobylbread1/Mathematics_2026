@@ -1,4 +1,20 @@
-### Essential Formulas
+### Problem Statement
+
+For
+
+$$
+\frac{x^2}{25}+\frac{y^2}{9}=1,
+$$
+
+find the semiaxis lengths, the intercepts with the coordinate axes, and make a sketch. Explain along which axis the ellipse is more stretched and how this is visible in the equation.
+
+> **Why this exercise:** teaches how to read the size and orientation of an ellipse without additional conceptual machinery.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Canonical Equation of an Ellipse:**
    An ellipse centered at the origin $(0, 0)$ aligned with the coordinate axes has the equation:
@@ -30,22 +46,6 @@
    * The variable with the larger denominator experiences greater stretching because it requires a larger coordinate value to contribute the same fractional amount toward the sum of $1$.
 
 ---
-
-### Problem Statement
-
-For
-
-$$
-\frac{x^2}{25}+\frac{y^2}{9}=1,
-$$
-
-find the semiaxis lengths, the intercepts with the coordinate axes, and make a sketch. Explain along which axis the ellipse is more stretched and how this is visible in the equation.
-
-> **Why this exercise:** teaches how to read the size and orientation of an ellipse without additional conceptual machinery.
-
----
-
-### Solution
 
 **Step 1: Determine the Semiaxis Lengths**
 
@@ -111,6 +111,10 @@ Therefore:
 ---
 
 **Step 3: Geometric Sketch Description**
+
+The geometric sketch of the ellipse with its axes and foci is shown below:
+
+![Ellipse Sketch](ex03_ellipse.png)
 
 * The ellipse is centered at the origin $C(0, 0)$.
 * It spans horizontally between $x = -5$ and $x = 5$ (total width of $2a = 10$).

@@ -1,4 +1,20 @@
-### Essential Formulas
+### Problem Statement
+
+Reduce
+
+$$
+x^2+y^2+z^2-4x+2y-6z-2=0
+$$
+
+to canonical form. Find the center and radius. Give two points on the sphere and check them in the equation.
+
+> **Why this exercise:** transfers the technique known from circles from two dimensions to three.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **General Equation of a Sphere in $\mathbb{R}^3$:**
 
@@ -25,22 +41,6 @@
    Applying the completion identity to each coordinate separately produces the squared terms and subtracts the balancing constants.
 
 ---
-
-### Problem Statement
-
-Reduce
-
-$$
-x^2+y^2+z^2-4x+2y-6z-2=0
-$$
-
-to canonical form. Find the center and radius. Give two points on the sphere and check them in the equation.
-
-> **Why this exercise:** transfers the technique known from circles from two dimensions to three.
-
----
-
-### Solution
 
 **Step 1: Group the Terms by Coordinate**
 

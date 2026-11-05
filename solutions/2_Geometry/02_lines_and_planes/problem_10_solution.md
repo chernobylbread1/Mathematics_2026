@@ -1,4 +1,14 @@
-### Essential Formulas
+### Problem Statement
+
+Find the orthogonal projection of $P=(2,1,3)$ onto the plane $x+y+z=3$, and then find the reflection of $P$ across this plane. Check that the midpoint of the segment joining the point and its reflection lies on the plane.
+
+> **Why this exercise:** combines the normal, intersection, and distance into the construction of a projection and reflection.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Normal Line Through a Point:**
    The line passing through a point $P(x_0, y_0, z_0)$ perpendicular to a plane $\Pi: ax + by + cz = d$ with normal vector $n = (a, b, c)$ is parametrized by:
@@ -35,16 +45,6 @@
    and must satisfy the plane equation.
 
 ---
-
-### Problem Statement
-
-Find the orthogonal projection of $P=(2,1,3)$ onto the plane $x+y+z=3$, and then find the reflection of $P$ across this plane. Check that the midpoint of the segment joining the point and its reflection lies on the plane.
-
-> **Why this exercise:** combines the normal, intersection, and distance into the construction of a projection and reflection.
-
----
-
-### Solution
 
 **Step 1: Set up the Normal Line Passing Through $P$**
 
@@ -197,4 +197,3 @@ The midpoint satisfies the plane equation, verifying the geometric symmetry of t
    $$
 
    The midpoint coincides with the orthogonal projection and strictly satisfies the plane equation.
-

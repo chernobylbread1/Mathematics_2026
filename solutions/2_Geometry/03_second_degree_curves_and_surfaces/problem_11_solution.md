@@ -1,4 +1,26 @@
-### Essential Formulas
+### Problem Statement
+
+Compare
+
+$$
+x^2+y^2-z^2=1
+$$
+
+and
+
+$$
+x^2+y^2-z^2=-1.
+$$
+
+For several values $z=c$, check whether the cross-section exists and what its radius is. Based on this, describe qualitatively the difference between the surfaces and make sketches.
+
+> **Why this exercise:** teaches how to recognize the shape of a surface from cross-sections instead of from a memorized catalog of names.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Hyperboloid of One Sheet:**
 
@@ -24,28 +46,6 @@
    $$
 
 ---
-
-### Problem Statement
-
-Compare
-
-$$
-x^2+y^2-z^2=1
-$$
-
-and
-
-$$
-x^2+y^2-z^2=-1.
-$$
-
-For several values $z=c$, check whether the cross-section exists and what its radius is. Based on this, describe qualitatively the difference between the surfaces and make sketches.
-
-> **Why this exercise:** teaches how to recognize the shape of a surface from cross-sections instead of from a memorized catalog of names.
-
----
-
-### Solution
 
 **Step 1: Analyze Horizontal Cross-Sections of Surface 1: $x^2 + y^2 - z^2 = 1$**
 
@@ -127,6 +127,10 @@ The surface is partitioned into two completely separated, disconnected bowls (hy
 ---
 
 **Step 4: Geometric Sketch Description**
+
+The qualitative 3D sketches of both hyperboloids (one-sheeted and two-sheeted) are shown below:
+
+![Sketches of Both Hyperboloids](ex11_hyperboloids.png)
 
 * **Surface 1 ($x^2 + y^2 - z^2 = 1$):**
   An hourglass-like or cooling tower surface. It has a circular waist of radius $1$ at the $xy$-plane ($z = 0$) and flares out symmetrically as $z$ increases upward and downward. It can be traversed continuously from the top to the bottom without ever leaving the surface.

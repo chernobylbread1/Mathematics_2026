@@ -1,4 +1,26 @@
-### Essential Formulas
+### Problem Statement
+
+Compare
+
+$$
+x^2+y^2=z^2
+$$
+
+and
+
+$$
+x^2+y^2=4.
+$$
+
+For each surface, describe the cross-sections $z=c$, $x=0$, and $y=0$, make a sketch, and explain why the radius of the cross-section depends on $z$ in the first case but is constant in the second.
+
+> **Why this exercise:** teaches how to distinguish a cone from a cylinder by the behavior of their cross-sections.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Equation of a Right Circular Cone (Double Cone):**
 
@@ -24,28 +46,6 @@
    When an equation in $\mathbb{R}^3$ does not contain a variable (such as $z$ in $x^2 + y^2 = 4$), the locus is a **cylindrical surface** whose ruling lines are parallel to the axis of the missing variable.
 
 ---
-
-### Problem Statement
-
-Compare
-
-$$
-x^2+y^2=z^2
-$$
-
-and
-
-$$
-x^2+y^2=4.
-$$
-
-For each surface, describe the cross-sections $z=c$, $x=0$, and $y=0$, make a sketch, and explain why the radius of the cross-section depends on $z$ in the first case but is constant in the second.
-
-> **Why this exercise:** teaches how to distinguish a cone from a cylinder by the behavior of their cross-sections.
-
----
-
-### Solution
 
 **Step 1: Cross-Section Analysis of Surface 1: $x^2 + y^2 = z^2$ (Double Cone)**
 
@@ -158,6 +158,14 @@ For each surface, describe the cross-sections $z=c$, $x=0$, and $y=0$, make a sk
    * This means the equation imposes zero constraints on the vertical coordinate $z$.
    * If a coordinate pair $(x, y)$ satisfies $x^2 + y^2 = 4$ in the $xy$-plane, then the point $(x, y, z)$ automatically satisfies the equation for **any arbitrary $z \in \mathbb{R}$**.
    * Geometrically, the surface is formed by translating the fixed circular boundary $x^2 + y^2 = 4$ along straight lines parallel to the $z$-axis. Consequently, the radius remains identically $2$ at all heights.
+
+---
+
+**Step 5: Visual Sketches of the Cone and Cylinder**
+
+The 3D qualitative models of the right circular cone and right circular cylinder are shown below:
+
+![Sketches of Cone and Cylinder](ex14_cone_cylinder.png)
 
 ---
 

@@ -1,4 +1,21 @@
-### Essential Formulas
+### Problem Statement
+
+Determine the type of object described by:
+
+1. $4x^2+9y^2=36$,
+2. $x^2-y^2=1$,
+3. $x^2-4y=0$,
+4. $x^2+y^2+1=0$.
+
+In the last case, explain why there are no real points.
+
+> **Why this exercise:** develops quick recognition of the curve type and checking whether real solutions exist.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Classification of Second-Degree Equations in $\mathbb{R}^2$:**
    An equation $A x^2 + C y^2 + D x + E y + F = 0$ represents:
@@ -18,23 +35,6 @@
    $$
 
 ---
-
-### Problem Statement
-
-Determine the type of object described by:
-
-1. $4x^2+9y^2=36$,
-2. $x^2-y^2=1$,
-3. $x^2-4y=0$,
-4. $x^2+y^2+1=0$.
-
-In the last case, explain why there are no real points.
-
-> **Why this exercise:** develops quick recognition of the curve type and checking whether real solutions exist.
-
----
-
-### Solution
 
 **Step 1: Classify Object 1: $4x^2 + 9y^2 = 36$**
 

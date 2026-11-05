@@ -1,4 +1,20 @@
-### Essential Formulas
+### Problem Statement
+
+Given
+
+$$
+\Pi_1:x+y+z=1,\qquad \Pi_2:x-y=2.
+$$
+
+First use the normal vectors to decide whether the planes are parallel. If not, compute the angle between them and explain why the normal vectors alone are enough for this calculation.
+
+> **Why this exercise:** focuses attention on one mechanism—using normals to analyze position and angle—without also introducing the construction of the intersection line.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Normal Vectors to Planes:**
    For planes defined by Cartesian equations:
@@ -32,22 +48,6 @@
    In particular, two planes are perpendicular ($\theta = 90^\circ$) if and only if $n_1 \cdot n_2 = 0$.
 
 ---
-
-### Problem Statement
-
-Given
-
-$$
-\Pi_1:x+y+z=1,\qquad \Pi_2:x-y=2.
-$$
-
-First use the normal vectors to decide whether the planes are parallel. If not, compute the angle between them and explain why the normal vectors alone are enough for this calculation.
-
-> **Why this exercise:** focuses attention on one mechanism—using normals to analyze position and angle—without also introducing the construction of the intersection line.
-
----
-
-### Solution
 
 **Step 1: Extract the Normal Vectors**
 
@@ -153,4 +153,3 @@ The two planes are **perpendicular** (orthogonal).
 
 4. **Explanation:**
    The normal vectors capture the full angular orientation of the planes in space. Because rotating each plane by $90^\circ$ yields its normal vector, the angle between the planes is identical to the angle between their normals, making point coordinates and intersection line constructions redundant.
-

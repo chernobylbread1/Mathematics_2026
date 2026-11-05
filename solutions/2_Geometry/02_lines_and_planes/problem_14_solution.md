@@ -1,4 +1,22 @@
-### Essential Formulas
+### Problem Statement
+
+From the point $P=(0,0,1)$, two lines are drawn with direction vectors
+
+$$
+v_1=(2,1,-1),\qquad v_2=(2,1,0).
+$$
+
+For each line, analyze its position relative to the plane $z=0$.
+
+For the line that intersects the plane, find the intersection point. For the other line, explain how you can recognize parallelism without solving an equation.
+
+> **Why this exercise:** compares two very similar data sets that lead to different outcomes and forces recognition of the geometric condition before calculation.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Horizontal Coordinate Plane ($xy$-Plane):**
    The equation of the plane $z = 0$ is:
@@ -24,24 +42,6 @@
    * If $v_z = 0$: the line has zero vertical velocity and is parallel to the plane.
 
 ---
-
-### Problem Statement
-
-From the point $P=(0,0,1)$, two lines are drawn with direction vectors
-
-$$
-v_1=(2,1,-1),\qquad v_2=(2,1,0).
-$$
-
-For each line, analyze its position relative to the plane $z=0$.
-
-For the line that intersects the plane, find the intersection point. For the other line, explain how you can recognize parallelism without solving an equation.
-
-> **Why this exercise:** compares two very similar data sets that lead to different outcomes and forces recognition of the geometric condition before calculation.
-
----
-
-### Solution
 
 **Step 1: Identify the Plane and Normal Vector**
 

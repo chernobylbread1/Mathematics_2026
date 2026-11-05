@@ -1,4 +1,20 @@
-### Essential Formulas
+### Problem Statement
+
+Find the intersection point of
+
+$$
+(x,y,z)=(1,0,2)+t(1,2,-1)
+$$
+
+with the plane $x+y+z=4$. Check the result by substituting it into both descriptions.
+
+> **Why this exercise:** practices the most important computational case of the line–plane relationship.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Intersection of a Parametric Line with an Implicit Plane:**
    Given a line $L: (x, y, z) = P_0 + t v$ and a plane $\Pi: ax + by + cz = d$:
@@ -30,22 +46,6 @@
    Substituting the unique parameter value $t^*$ back into the parametric line equation gives the coordinates of the intersection point $Q = P_0 + t^* v$.
 
 ---
-
-### Problem Statement
-
-Find the intersection point of
-
-$$
-(x,y,z)=(1,0,2)+t(1,2,-1)
-$$
-
-with the plane $x+y+z=4$. Check the result by substituting it into both descriptions.
-
-> **Why this exercise:** practices the most important computational case of the line–plane relationship.
-
----
-
-### Solution
 
 **Step 1: Express the Line in Parametric Components**
 
@@ -182,4 +182,3 @@ Because point $Q$ satisfies both the line and the plane equations simultaneously
 3. **Verification:**
    * In plane: $\frac{3}{2} + 1 + \frac{3}{2} = 4$
    * On line: $(1, 0, 2) + \frac{1}{2}(1, 2, -1) = \left(\frac{3}{2}, 1, \frac{3}{2}\right)$
-

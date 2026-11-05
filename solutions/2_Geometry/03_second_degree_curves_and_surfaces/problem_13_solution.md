@@ -1,4 +1,20 @@
-### Essential Formulas
+### Problem Statement
+
+Given the sphere
+
+$$
+x^2+y^2+z^2=25
+$$
+
+and the plane $z=3$, find the equation of the intersection curve and its radius. Then describe what happens for $z=c$ depending on $c$.
+
+> **Why this exercise:** connects a surface equation with the geometry of its intersection.
+
+---
+
+### Solution
+
+#### Essential Formulas
 
 1. **Sphere Equation:**
    A sphere centered at the origin with radius $R$ is given by:
@@ -26,22 +42,6 @@
    * If $d > R$: the plane misses the sphere (empty set, $\emptyset$).
 
 ---
-
-### Problem Statement
-
-Given the sphere
-
-$$
-x^2+y^2+z^2=25
-$$
-
-and the plane $z=3$, find the equation of the intersection curve and its radius. Then describe what happens for $z=c$ depending on $c$.
-
-> **Why this exercise:** connects a surface equation with the geometry of its intersection.
-
----
-
-### Solution
 
 **Step 1: Find the Equation of the Intersection Curve for $z = 3$**
 
